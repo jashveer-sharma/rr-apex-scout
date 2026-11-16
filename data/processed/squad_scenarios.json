@@ -1,0 +1,399 @@
+{
+  "title": "Rajasthan Royals IPL 2027 Squad Construction Blueprints",
+  "generationDate": "2026-11-16",
+  "governingRules": "BCCI IPL Regulations (Max 4 Overseas in XI, Max 8 in 25-man Squad, Base Cap \u20b9120.00 Cr)",
+  "rrRetainedCore": {
+    "players": [
+      {
+        "name": "Sanju Samson",
+        "role": "Captain / Wicketkeeper-Batter",
+        "price": "\u20b918.00 Cr",
+        "type": "Indian National"
+      },
+      {
+        "name": "Yashasvi Jaiswal",
+        "role": "Opening Batter (LHB)",
+        "price": "\u20b918.00 Cr",
+        "type": "Indian National"
+      },
+      {
+        "name": "Riyan Parag",
+        "role": "Middle-Order Anchor & Off-Spin",
+        "price": "\u20b914.00 Cr",
+        "type": "Indian National"
+      },
+      {
+        "name": "Dhruv Jurel",
+        "role": "Wicketkeeper-Batter / Finisher",
+        "price": "\u20b914.00 Cr",
+        "type": "Indian National"
+      },
+      {
+        "name": "Shimron Hetmyer",
+        "role": "Death-Over Finisher (LHB)",
+        "price": "\u20b911.00 Cr",
+        "type": "Overseas Slot #1"
+      },
+      {
+        "name": "Sandeep Sharma",
+        "role": "Death Seamer (Knuckleball / Yorkers)",
+        "price": "\u20b94.00 Cr",
+        "type": "Indian Uncapped Rule"
+      }
+    ],
+    "totalCommittedSalary": "\u20b979.00 Cr",
+    "baseSalaryCap": "\u20b9120.00 Cr",
+    "availableMiniAuctionPurse": "\u20b928.50 \u2013 \u20b934.00 Cr",
+    "overseasSlotsRemaining": "3 Slots Available (Max 8 in squad)"
+  },
+  "scenarios": [
+    {
+      "id": "scenario-b",
+      "name": "Scenario B: Championship Rebuild (Balanced Excellence)",
+      "tag": "RECOMMENDED BLUEPRINT",
+      "philosophy": "Surgical recruitment addressing RR two historical bottlenecks: death-over finishing (overs 16\u201320) and middle-overs express hostility, while preserving ample purse flexibility.",
+      "playingXI": [
+        {
+          "slot": 1,
+          "name": "Yashasvi Jaiswal",
+          "role": "Opening Batter (LHB)",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 71.5
+        },
+        {
+          "slot": 2,
+          "name": "Sanju Samson (C / WK)",
+          "role": "Top-Order Batter / Captain",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 68.2
+        },
+        {
+          "slot": 3,
+          "name": "Riyan Parag",
+          "role": "Middle-Order Anchor / Off-Spin",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 67.8
+        },
+        {
+          "slot": 4,
+          "name": "Rajat Patidar",
+          "role": "Top-Order Clutch Striker",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b97.50 Cr",
+          "brs": 72.3
+        },
+        {
+          "slot": 5,
+          "name": "Shashank Singh",
+          "role": "Crisis Finisher (RHB)",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b94.50 Cr",
+          "brs": 74.4
+        },
+        {
+          "slot": 6,
+          "name": "Dhruv Jurel",
+          "role": "Wicketkeeper Finisher",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 65.4
+        },
+        {
+          "slot": 7,
+          "name": "Naman Dhir",
+          "role": "Lower-Order Detonator / Off-Break",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b95.50 Cr",
+          "brs": 76.5
+        },
+        {
+          "slot": 8,
+          "name": "Shimron Hetmyer",
+          "role": "Death Finisher (LHB)",
+          "classification": "RETAINED",
+          "nationality": "OS",
+          "brs": 69.4
+        },
+        {
+          "slot": 9,
+          "name": "Mitchell Santner",
+          "role": "Slow Left-Arm Orthodox Containment",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b94.20 Cr",
+          "brs": 71.8
+        },
+        {
+          "slot": 10,
+          "name": "Sandeep Sharma",
+          "role": "Swing & Knuckleball Seamer",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 64.8
+        },
+        {
+          "slot": 11,
+          "name": "Hasan Mahmud",
+          "role": "Death Seamer & Searing Yorker Specialist",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b93.50 Cr",
+          "brs": 79.7
+        },
+        {
+          "slot": 12,
+          "name": "Umran Malik (Impact Player)",
+          "role": "Express Pace Enforcer (150+ km/h)",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b94.00 Cr",
+          "brs": 73.6
+        }
+      ],
+      "overseasInXI": 3,
+      "overseasInSquad": 6,
+      "estimatedAuctionSpend": "\u20b925.20 Cr",
+      "remainingPurse": "\u20b97.80 Cr (Healthy Safety Cushion)",
+      "roleCoverageScore": "96 / 100",
+      "keyStrengths": "Batting depth down to #8; 7 viable bowling options; extreme pace (150k Malik) + mystery containment (Santner); 100% BCCI compliant with 1 overseas slot in reserve."
+    },
+    {
+      "id": "scenario-a",
+      "name": "Scenario A: Core Continuity (Minimal Changes)",
+      "tag": "CONSERVATIVE FISCAL BLUEPRINT",
+      "philosophy": "Retain maximum purse reserves by targeting value uncapped gems and seasoned international role-players without entering bidding duels.",
+      "playingXI": [
+        {
+          "slot": 1,
+          "name": "Yashasvi Jaiswal",
+          "role": "Opening Batter (LHB)",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 71.5
+        },
+        {
+          "slot": 2,
+          "name": "Sanju Samson (C / WK)",
+          "role": "Top-Order Batter / Captain",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 68.2
+        },
+        {
+          "slot": 3,
+          "name": "Riyan Parag",
+          "role": "Middle-Order Anchor",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 67.8
+        },
+        {
+          "slot": 4,
+          "name": "Shashank Singh",
+          "role": "Middle-Order Stabilizer",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b94.00 Cr",
+          "brs": 74.4
+        },
+        {
+          "slot": 5,
+          "name": "Dhruv Jurel",
+          "role": "Wicketkeeper Finisher",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 65.4
+        },
+        {
+          "slot": 6,
+          "name": "Shimron Hetmyer",
+          "role": "Death Finisher (LHB)",
+          "classification": "RETAINED",
+          "nationality": "OS",
+          "brs": 69.4
+        },
+        {
+          "slot": 7,
+          "name": "Naman Dhir",
+          "role": "Finisher / Off-Break",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b95.00 Cr",
+          "brs": 76.5
+        },
+        {
+          "slot": 8,
+          "name": "Jamie Overton",
+          "role": "Pace All-Rounder",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b93.50 Cr",
+          "brs": 66.2
+        },
+        {
+          "slot": 9,
+          "name": "Mitchell Santner",
+          "role": "Spin Restrictor",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b93.80 Cr",
+          "brs": 71.8
+        },
+        {
+          "slot": 10,
+          "name": "Sandeep Sharma",
+          "role": "Seamer",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 64.8
+        },
+        {
+          "slot": 11,
+          "name": "Benjamin Sears",
+          "role": "Express Seamer (145+ km/h)",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b92.20 Cr",
+          "brs": 74.0
+        },
+        {
+          "slot": 12,
+          "name": "Domestic Seamer (Impact)",
+          "role": "Backup Pacer",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b91.00 Cr",
+          "brs": 62.0
+        }
+      ],
+      "overseasInXI": 4,
+      "overseasInSquad": 5,
+      "estimatedAuctionSpend": "\u20b918.50 Cr",
+      "remainingPurse": "\u20b914.50 Cr (Maximum Fiscal Cushion)",
+      "roleCoverageScore": "88 / 100",
+      "keyStrengths": "Extremely cost-effective; preserves \u20b914.5 Cr purse for emergency mid-season replacements."
+    },
+    {
+      "id": "scenario-c",
+      "name": "Scenario C: Opportunity-Driven Auction (Marquee Power)",
+      "tag": "AGGRESSIVE FIREPOWER BLUEPRINT",
+      "philosophy": "Re-acquire Jos Buttler or recruit Tim David at marquee valuation, pairing them with uncapped Indian bowling gems to maximize star ceiling.",
+      "playingXI": [
+        {
+          "slot": 1,
+          "name": "Yashasvi Jaiswal",
+          "role": "Opening Batter (LHB)",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 71.5
+        },
+        {
+          "slot": 2,
+          "name": "Jos Buttler",
+          "role": "Championship Opener",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b911.00 Cr",
+          "brs": 73.4
+        },
+        {
+          "slot": 3,
+          "name": "Sanju Samson (C / WK)",
+          "role": "Top-Order Anchor",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 68.2
+        },
+        {
+          "slot": 4,
+          "name": "Riyan Parag",
+          "role": "Middle-Order Anchor",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 67.8
+        },
+        {
+          "slot": 5,
+          "name": "Dhruv Jurel",
+          "role": "Wicketkeeper Finisher",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 65.4
+        },
+        {
+          "slot": 6,
+          "name": "Shimron Hetmyer",
+          "role": "Death Finisher",
+          "classification": "RETAINED",
+          "nationality": "OS",
+          "brs": 69.4
+        },
+        {
+          "slot": 7,
+          "name": "Naman Dhir",
+          "role": "Finisher",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b95.50 Cr",
+          "brs": 76.5
+        },
+        {
+          "slot": 8,
+          "name": "Mitchell Santner",
+          "role": "Finger Spinner",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b94.00 Cr",
+          "brs": 71.8
+        },
+        {
+          "slot": 9,
+          "name": "Sandeep Sharma",
+          "role": "Death Seamer",
+          "classification": "RETAINED",
+          "nationality": "IND",
+          "brs": 64.8
+        },
+        {
+          "slot": 10,
+          "name": "Hasan Mahmud",
+          "role": "Yorker Specialist",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "OS",
+          "estPrice": "\u20b93.50 Cr",
+          "brs": 79.7
+        },
+        {
+          "slot": 11,
+          "name": "Umran Malik",
+          "role": "Express Pace (150k)",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b94.00 Cr",
+          "brs": 73.6
+        },
+        {
+          "slot": 12,
+          "name": "Shashank Singh (Impact)",
+          "role": "Crisis Finisher",
+          "classification": "TARGET_ACQUISITION",
+          "nationality": "IND",
+          "estPrice": "\u20b94.00 Cr",
+          "brs": 74.4
+        }
+      ],
+      "overseasInXI": 4,
+      "overseasInSquad": 6,
+      "estimatedAuctionSpend": "\u20b932.00 Cr",
+      "remainingPurse": "\u20b91.00 Cr (High Capital Deployment)",
+      "roleCoverageScore": "95 / 100",
+      "keyStrengths": "Unstoppable top-order explosion with Jaiswal + Buttler + Samson; leaves virtually zero budget margin."
+    }
+  ]
+}

@@ -1,0 +1,1422 @@
+[
+  {
+    "rank": 1,
+    "playerId": 6643,
+    "name": "Hasan Mahmud",
+    "team": "Bangladesh",
+    "nationality": "Bangladesh",
+    "cricketBoard": "Bangladesh Cricket Board (BCB)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b91.5\u20133 Cr (Budget Seam Weapon)",
+    "pool": "INTERNATIONAL",
+    "poolLabel": "International Talent",
+    "poolDescription": "Exceptional pressure metrics in official T20I bilateral series vs top Test nations (Eng, Aus, SA, NZ). Zero IPL matches in dataset.",
+    "archetype": "Skilful Seam Death Specialist",
+    "rrTacticalFit": "Eligible Overseas (Bangladesh, subject to BCB seasonal NOC). 5.97 pressure economy and 49.6% dot ball induction under pressure. Exceptional yorker execution at budget auction cost.",
+    "brsScore": 80.92,
+    "pressRawBalls": 119,
+    "pressRawRuns": 120,
+    "pressWickets": 11,
+    "pressEcon": 5.97,
+    "baseEcon": 6.5,
+    "deltaEcon": 0.53,
+    "dotPct": 49.6,
+    "boundaryPct": 12.6,
+    "matches": 10,
+    "iplBalls": 0,
+    "tier1Balls": 59,
+    "radar": {
+      "runSuppression": 84,
+      "dotPercentage": 79,
+      "boundaryControl": 69,
+      "wicketThreat": 69,
+      "clutchLift": 63,
+      "sampleConfidence": 30
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 0,
+        "runs": 0,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 46,
+        "runs": 32,
+        "wickets": 2
+      },
+      "death": {
+        "balls": 73,
+        "runs": 88,
+        "wickets": 9
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 42,
+        "runs": 42,
+        "wickets": 5
+      },
+      "defendingTarget": {
+        "balls": 77,
+        "runs": 78,
+        "wickets": 6
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Seamed In",
+          "count": 71,
+          "pct": 394.4
+        },
+        {
+          "style": "Seamed Out",
+          "count": 36,
+          "pct": 200.0
+        },
+        {
+          "style": "Inswing",
+          "count": 26,
+          "pct": 144.4
+        },
+        {
+          "style": "Out Swing",
+          "count": 26,
+          "pct": 144.4
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 213,
+          "runs": 248,
+          "wkts": 12,
+          "econ": 6.99,
+          "dotPct": 43.2
+        },
+        "LHB": {
+          "balls": 87,
+          "runs": 85,
+          "wkts": 4,
+          "econ": 5.86,
+          "dotPct": 41.4
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 80,
+          "runs": 85,
+          "wkts": 2,
+          "econ": 6.38,
+          "dotPct": 50.0
+        },
+        "Middle": {
+          "balls": 139,
+          "runs": 150,
+          "wkts": 5,
+          "econ": 6.47,
+          "dotPct": 39.6
+        },
+        "Death": {
+          "balls": 81,
+          "runs": 98,
+          "wkts": 9,
+          "econ": 7.26,
+          "dotPct": 40.7
+        }
+      },
+      "dotRateOverall": 42.7,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "Bangladesh (BCB) / Free Agent",
+    "contractDetails": "Overseas Fast Bowler Pool (Base \u20b975 Lakh)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "Rank #1 statistical pressure bowler (5.97 economy, 49.6% dots). Precision death-over yorker executor available at exceptional budget value.",
+    "auctionOpportunityScore": 92.0,
+    "squadRoleFit": "Death-Overs Seam Specialist (Overseas Slot)",
+    "acquisitionPriority": "Tier 1 Budget Steal Target (Subject to BCB NOC)",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 2,
+    "playerId": 4856,
+    "name": "Benjamin Sears",
+    "team": "New Zealand",
+    "nationality": "New Zealand",
+    "cricketBoard": "New Zealand Cricket (NZC)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b92\u20133.5 Cr (Express Hostility)",
+    "pool": "INTERNATIONAL",
+    "poolLabel": "International Talent",
+    "poolDescription": "Exceptional pressure metrics in official T20I bilateral series vs top Test nations (Eng, Aus, SA, NZ). Zero IPL matches in dataset.",
+    "archetype": "Hit-The-Deck Express Pace",
+    "rrTacticalFit": "Eligible Overseas (New Zealand). 145+ km/h express pace delivering acute bounce and hostility. 6.32 pressure economy and 44.0% dot ball rate in death overs.",
+    "brsScore": 79.7,
+    "pressRawBalls": 100,
+    "pressRawRuns": 106,
+    "pressWickets": 11,
+    "pressEcon": 6.32,
+    "baseEcon": 7.28,
+    "deltaEcon": 0.96,
+    "dotPct": 44.0,
+    "boundaryPct": 11.0,
+    "matches": 10,
+    "iplBalls": 0,
+    "tier1Balls": 54,
+    "radar": {
+      "runSuppression": 79,
+      "dotPercentage": 70,
+      "boundaryControl": 76,
+      "wicketThreat": 82,
+      "clutchLift": 73,
+      "sampleConfidence": 30
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 0,
+        "runs": 0,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 20,
+        "runs": 9,
+        "wickets": 5
+      },
+      "death": {
+        "balls": 80,
+        "runs": 97,
+        "wickets": 6
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 68,
+        "runs": 72,
+        "wickets": 6
+      },
+      "defendingTarget": {
+        "balls": 32,
+        "runs": 34,
+        "wickets": 5
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Seamed In",
+          "count": 55,
+          "pct": 323.5
+        },
+        {
+          "style": "Off Cutter",
+          "count": 49,
+          "pct": 288.2
+        },
+        {
+          "style": "Seamed Out",
+          "count": 37,
+          "pct": 217.6
+        },
+        {
+          "style": "Inswing",
+          "count": 30,
+          "pct": 176.5
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 182,
+          "runs": 227,
+          "wkts": 13,
+          "econ": 7.48,
+          "dotPct": 40.7
+        },
+        "LHB": {
+          "balls": 97,
+          "runs": 114,
+          "wkts": 7,
+          "econ": 7.05,
+          "dotPct": 46.4
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 99,
+          "runs": 142,
+          "wkts": 4,
+          "econ": 8.61,
+          "dotPct": 46.5
+        },
+        "Middle": {
+          "balls": 87,
+          "runs": 89,
+          "wkts": 10,
+          "econ": 6.14,
+          "dotPct": 49.4
+        },
+        "Death": {
+          "balls": 93,
+          "runs": 110,
+          "wkts": 6,
+          "econ": 7.1,
+          "dotPct": 32.3
+        }
+      },
+      "dotRateOverall": 42.7,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "New Zealand (NZC) / Free Agent",
+    "contractDetails": "Overseas Fast Bowler Pool (Base \u20b975 Lakh - \u20b91 Cr)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "145+ km/h express seamer with 6.32 pressure economy and 44.0% dot ball rate. Generates hostile steep bounce ideal for SMS Jaipur.",
+    "auctionOpportunityScore": 91.5,
+    "squadRoleFit": "Express Hit-the-Deck Enforcer (Overseas Slot)",
+    "acquisitionPriority": "Tier 1 Priority Target (High-Pace Hostility)",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 3,
+    "playerId": 781,
+    "name": "Sunil Narine",
+    "team": "Kolkata Knight Riders",
+    "nationality": "West Indies",
+    "cricketBoard": "Cricket West Indies (CWI)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b910\u201314 Cr (Elite Restrictor)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "The Undisputed Economy King",
+    "rrTacticalFit": "Eligible Overseas (West Indies). 517 IPL pressure balls; 6.37 pressure economy across 10+ IPL campaigns. Unsurpassed ability to freeze matches in death and middle overs.",
+    "brsScore": 77.44,
+    "pressRawBalls": 517,
+    "pressRawRuns": 549,
+    "pressWickets": 36,
+    "pressEcon": 6.37,
+    "baseEcon": 6.76,
+    "deltaEcon": 0.39,
+    "dotPct": 40.2,
+    "boundaryPct": 9.7,
+    "matches": 48,
+    "iplBalls": 517,
+    "tier1Balls": 517,
+    "radar": {
+      "runSuppression": 78,
+      "dotPercentage": 64,
+      "boundaryControl": 81,
+      "wicketThreat": 52,
+      "clutchLift": 59,
+      "sampleConfidence": 86
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 7,
+        "runs": 2,
+        "wickets": 2
+      },
+      "middle": {
+        "balls": 312,
+        "runs": 354,
+        "wickets": 16
+      },
+      "death": {
+        "balls": 198,
+        "runs": 193,
+        "wickets": 18
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 161,
+        "runs": 159,
+        "wickets": 14
+      },
+      "defendingTarget": {
+        "balls": 353,
+        "runs": 389,
+        "wickets": 20
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Off Break",
+          "count": 810,
+          "pct": 13500.0
+        },
+        {
+          "style": "Carrom",
+          "count": 736,
+          "pct": 12266.7
+        },
+        {
+          "style": "Full Toss",
+          "count": 4,
+          "pct": 66.7
+        },
+        {
+          "style": "Straight",
+          "count": 3,
+          "pct": 50.0
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 955,
+          "runs": 1040,
+          "wkts": 38,
+          "econ": 6.53,
+          "dotPct": 33.6
+        },
+        "LHB": {
+          "balls": 601,
+          "runs": 714,
+          "wkts": 28,
+          "econ": 7.13,
+          "dotPct": 39.9
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 213,
+          "runs": 284,
+          "wkts": 7,
+          "econ": 8.0,
+          "dotPct": 43.7
+        },
+        "Middle": {
+          "balls": 1123,
+          "runs": 1252,
+          "wkts": 40,
+          "econ": 6.69,
+          "dotPct": 34.0
+        },
+        "Death": {
+          "balls": 220,
+          "runs": 218,
+          "wkts": 19,
+          "econ": 5.95,
+          "dotPct": 39.1
+        }
+      },
+      "dotRateOverall": 36.1,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Retained \u2014 Unavailable (Kolkata Knight Riders)",
+    "auctionStatusCode": "RETAINED_UNAVAILABLE",
+    "currentFranchise": "Kolkata Knight Riders",
+    "contractDetails": "Capped Retention (\u20b912.00 Cr)",
+    "isRRAcquisitionTarget": false,
+    "availabilityReason": "Foundational franchise pillar retained by Kolkata Knight Riders. Zero auction availability.",
+    "auctionOpportunityScore": 0.0,
+    "squadRoleFit": "Mystery Spinner / Opener",
+    "acquisitionPriority": "N/A \u2014 Retained by Rival Franchise",
+    "isRetained": true,
+    "retainedFranchise": "Kolkata Knight Riders",
+    "alternateTarget": "Varun Chakaravarthy",
+    "alternateReason": "Mystery spin variation chokehold; sub-7.20 pressure economy across subcontinental surfaces."
+  },
+  {
+    "rank": 4,
+    "playerId": 8380,
+    "name": "Mohammad Rishad Hossain",
+    "team": "Bangladesh",
+    "nationality": "Bangladesh",
+    "cricketBoard": "Bangladesh Cricket Board (BCB)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b91.5\u20132.5 Cr (Emerging Wrist Spin)",
+    "pool": "INTERNATIONAL",
+    "poolLabel": "International Talent",
+    "poolDescription": "Exceptional pressure metrics in official T20I bilateral series vs top Test nations (Eng, Aus, SA, NZ). Zero IPL matches in dataset.",
+    "archetype": "Tall Wrist-Spin Wicket Taker",
+    "rrTacticalFit": "Eligible Overseas (Bangladesh). High-release leg-spinner offering sharp bounce and drift. 7.30 pressure economy with 24 high-leverage wickets. Ideal SMS Jaipur asset.",
+    "brsScore": 74.95,
+    "pressRawBalls": 255,
+    "pressRawRuns": 317,
+    "pressWickets": 24,
+    "pressEcon": 7.3,
+    "baseEcon": 8.2,
+    "deltaEcon": 0.9,
+    "dotPct": 41.6,
+    "boundaryPct": 15.3,
+    "matches": 21,
+    "iplBalls": 0,
+    "tier1Balls": 90,
+    "radar": {
+      "runSuppression": 65,
+      "dotPercentage": 66,
+      "boundaryControl": 58,
+      "wicketThreat": 70,
+      "clutchLift": 72,
+      "sampleConfidence": 42
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 0,
+        "runs": 0,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 153,
+        "runs": 160,
+        "wickets": 12
+      },
+      "death": {
+        "balls": 102,
+        "runs": 157,
+        "wickets": 12
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 102,
+        "runs": 139,
+        "wickets": 7
+      },
+      "defendingTarget": {
+        "balls": 153,
+        "runs": 178,
+        "wickets": 17
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Leg Break",
+          "count": 770,
+          "pct": 12833.3
+        },
+        {
+          "style": "Googly",
+          "count": 97,
+          "pct": 1616.7
+        },
+        {
+          "style": "Full Toss",
+          "count": 15,
+          "pct": 250.0
+        },
+        {
+          "style": "Flipper",
+          "count": 9,
+          "pct": 150.0
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 668,
+          "runs": 850,
+          "wkts": 39,
+          "econ": 7.63,
+          "dotPct": 36.1
+        },
+        "LHB": {
+          "balls": 229,
+          "runs": 367,
+          "wkts": 17,
+          "econ": 9.62,
+          "dotPct": 27.1
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 0,
+          "runs": 0,
+          "wkts": 0,
+          "econ": 0.0,
+          "dotPct": 0.0
+        },
+        "Middle": {
+          "balls": 775,
+          "runs": 1039,
+          "wkts": 41,
+          "econ": 8.04,
+          "dotPct": 32.9
+        },
+        "Death": {
+          "balls": 122,
+          "runs": 178,
+          "wkts": 15,
+          "econ": 8.75,
+          "dotPct": 39.3
+        }
+      },
+      "dotRateOverall": 33.8,
+      "genomePersona": "Multi-Phase Strike Weapon"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "Bangladesh (BCB) / Free Agent",
+    "contractDetails": "Overseas Spin Pool (Base \u20b950\u201375 Lakh)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "Tall leg-spinner offering sharp over-spin bounce. 7.30 economy with 24 high-leverage wickets. Low-cost SMS Jaipur tactical weapon.",
+    "auctionOpportunityScore": 82.5,
+    "squadRoleFit": "Attacking Wrist-Spinner (Overseas Slot)",
+    "acquisitionPriority": "Tier 2 Tactical Target",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 5,
+    "playerId": 4101,
+    "name": "Mitchell Santner",
+    "team": "Chennai Super Kings",
+    "nationality": "New Zealand",
+    "cricketBoard": "New Zealand Cricket (NZC)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b94\u20136 Cr (Pinpoint Restrictor)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "Pinpoint Left-Arm Restrictor",
+    "rrTacticalFit": "Eligible Overseas (New Zealand). 6.83 pressure economy over 491 deliveries; zero loose balls in knockout cricket. Exceptional tactical matchup against power right-handers.",
+    "brsScore": 73.91,
+    "pressRawBalls": 491,
+    "pressRawRuns": 555,
+    "pressWickets": 37,
+    "pressEcon": 6.83,
+    "baseEcon": 7.25,
+    "deltaEcon": 0.42,
+    "dotPct": 38.3,
+    "boundaryPct": 11.6,
+    "matches": 40,
+    "iplBalls": 140,
+    "tier1Balls": 414,
+    "radar": {
+      "runSuppression": 72,
+      "dotPercentage": 61,
+      "boundaryControl": 73,
+      "wicketThreat": 56,
+      "clutchLift": 60,
+      "sampleConfidence": 81
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 7,
+        "runs": 6,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 344,
+        "runs": 344,
+        "wickets": 26
+      },
+      "death": {
+        "balls": 140,
+        "runs": 205,
+        "wickets": 11
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 91,
+        "runs": 118,
+        "wickets": 6
+      },
+      "defendingTarget": {
+        "balls": 400,
+        "runs": 437,
+        "wickets": 31
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Orthodox",
+          "count": 1399,
+          "pct": 15544.4
+        },
+        {
+          "style": "Arm ball",
+          "count": 229,
+          "pct": 2544.4
+        },
+        {
+          "style": "Full Toss",
+          "count": 23,
+          "pct": 255.6
+        },
+        {
+          "style": "Yorker",
+          "count": 8,
+          "pct": 88.9
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 1287,
+          "runs": 1502,
+          "wkts": 64,
+          "econ": 7.0,
+          "dotPct": 36.9
+        },
+        "LHB": {
+          "balls": 381,
+          "runs": 500,
+          "wkts": 20,
+          "econ": 7.87,
+          "dotPct": 32.0
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 293,
+          "runs": 323,
+          "wkts": 12,
+          "econ": 6.61,
+          "dotPct": 51.9
+        },
+        "Middle": {
+          "balls": 1203,
+          "runs": 1422,
+          "wkts": 59,
+          "econ": 7.09,
+          "dotPct": 33.3
+        },
+        "Death": {
+          "balls": 172,
+          "runs": 257,
+          "wkts": 13,
+          "econ": 8.97,
+          "dotPct": 25.6
+        }
+      },
+      "dotRateOverall": 35.8,
+      "genomePersona": "Multi-Phase Strike Weapon"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "New Zealand (NZC) / CSK (Released)",
+    "contractDetails": "Overseas All-Rounder Pool (Base \u20b91.50 Cr)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "Released by CSK into the auction pool. World-class defensive spinner (6.83 pressure economy) with zero loose deliveries in knockout matches.",
+    "auctionOpportunityScore": 93.0,
+    "squadRoleFit": "Middle-Overs Spin Restrictor & No. 8 Depth (Overseas Slot)",
+    "acquisitionPriority": "Tier 1 Keystone Target (SMS Jaipur Spin Choke)",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 6,
+    "playerId": 25048,
+    "name": "Umran Malik",
+    "team": "Sunrisers Hyderabad",
+    "nationality": "India",
+    "cricketBoard": "BCCI (India)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b94\u20137 Cr (Indian Express Enforcer)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "150+ km/h Raw Hostility",
+    "rrTacticalFit": "Verified Indian National. 198 pressure balls; 48.5% dot ball rate. Extreme skiddy velocity intimidates batters, shutting down premeditated ramp shots. High-priority Indian pace asset for RR.",
+    "brsScore": 73.63,
+    "pressRawBalls": 198,
+    "pressRawRuns": 274,
+    "pressWickets": 20,
+    "pressEcon": 8.19,
+    "baseEcon": 9.14,
+    "deltaEcon": 0.95,
+    "dotPct": 48.5,
+    "boundaryPct": 22.7,
+    "matches": 18,
+    "iplBalls": 115,
+    "tier1Balls": 134,
+    "radar": {
+      "runSuppression": 53,
+      "dotPercentage": 77,
+      "boundaryControl": 29,
+      "wicketThreat": 75,
+      "clutchLift": 73,
+      "sampleConfidence": 33
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 12,
+        "runs": 28,
+        "wickets": 1
+      },
+      "middle": {
+        "balls": 98,
+        "runs": 104,
+        "wickets": 9
+      },
+      "death": {
+        "balls": 88,
+        "runs": 142,
+        "wickets": 10
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 84,
+        "runs": 101,
+        "wickets": 7
+      },
+      "defendingTarget": {
+        "balls": 114,
+        "runs": 173,
+        "wickets": 13
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Seamed In",
+          "count": 263,
+          "pct": 1547.1
+        },
+        {
+          "style": "Seamed Out",
+          "count": 61,
+          "pct": 358.8
+        },
+        {
+          "style": "Bouncer",
+          "count": 52,
+          "pct": 305.9
+        },
+        {
+          "style": "Straight",
+          "count": 46,
+          "pct": 270.6
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 405,
+          "runs": 641,
+          "wkts": 24,
+          "econ": 9.5,
+          "dotPct": 35.1
+        },
+        "LHB": {
+          "balls": 195,
+          "runs": 280,
+          "wkts": 14,
+          "econ": 8.62,
+          "dotPct": 42.1
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 48,
+          "runs": 107,
+          "wkts": 1,
+          "econ": 13.38,
+          "dotPct": 31.2
+        },
+        "Middle": {
+          "balls": 449,
+          "runs": 638,
+          "wkts": 27,
+          "econ": 8.53,
+          "dotPct": 38.8
+        },
+        "Death": {
+          "balls": 103,
+          "runs": 176,
+          "wkts": 10,
+          "econ": 10.25,
+          "dotPct": 34.0
+        }
+      },
+      "dotRateOverall": 37.3,
+      "genomePersona": "Multi-Phase Strike Weapon"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "Sunrisers Hyderabad (Released) / Domestic",
+    "contractDetails": "Domestic Fast Bowling Pool (Base \u20b950 Lakh - \u20b91 Cr)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "Verified Indian National delivering 150+ km/h velocity. 48.5% dot ball rate under pressure. Essential domestic pace asset for RR squad balance.",
+    "auctionOpportunityScore": 95.0,
+    "squadRoleFit": "Middle-Overs Enforcer & Impact Player (Indian Core)",
+    "acquisitionPriority": "Tier 1 Non-Negotiable Domestic Pace Target",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 7,
+    "playerId": 4722,
+    "name": "Rashid Khan",
+    "team": "Gujarat Titans",
+    "nationality": "Afghanistan",
+    "cricketBoard": "Afghanistan Cricket Board (ACB)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b915\u201318 Cr (Marquee Wrist Spinner)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "World Benchmark Wrist Spinner",
+    "rrTacticalFit": "Eligible Overseas (Afghanistan). 934 pressure deliveries; 79 high-leverage wickets. Unmatched consistency across all 3 phases with lethal googly variation.",
+    "brsScore": 69.24,
+    "pressRawBalls": 934,
+    "pressRawRuns": 1173,
+    "pressWickets": 79,
+    "pressEcon": 7.75,
+    "baseEcon": 7.55,
+    "deltaEcon": -0.21,
+    "dotPct": 38.3,
+    "boundaryPct": 13.9,
+    "matches": 85,
+    "iplBalls": 591,
+    "tier1Balls": 644,
+    "radar": {
+      "runSuppression": 59,
+      "dotPercentage": 61,
+      "boundaryControl": 64,
+      "wicketThreat": 63,
+      "clutchLift": 44,
+      "sampleConfidence": 100
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 17,
+        "runs": 19,
+        "wickets": 1
+      },
+      "middle": {
+        "balls": 473,
+        "runs": 563,
+        "wickets": 28
+      },
+      "death": {
+        "balls": 444,
+        "runs": 591,
+        "wickets": 50
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 297,
+        "runs": 408,
+        "wickets": 26
+      },
+      "defendingTarget": {
+        "balls": 637,
+        "runs": 765,
+        "wickets": 53
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Leg Break",
+          "count": 1329,
+          "pct": 22150.0
+        },
+        {
+          "style": "Googly",
+          "count": 1229,
+          "pct": 20483.3
+        },
+        {
+          "style": "Full Toss",
+          "count": 33,
+          "pct": 550.0
+        },
+        {
+          "style": "Flipper",
+          "count": 7,
+          "pct": 116.7
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 1713,
+          "runs": 2140,
+          "wkts": 82,
+          "econ": 7.5,
+          "dotPct": 33.2
+        },
+        "LHB": {
+          "balls": 897,
+          "runs": 1082,
+          "wkts": 60,
+          "econ": 7.24,
+          "dotPct": 35.3
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 273,
+          "runs": 360,
+          "wkts": 7,
+          "econ": 7.91,
+          "dotPct": 35.9
+        },
+        "Middle": {
+          "balls": 1851,
+          "runs": 2203,
+          "wkts": 81,
+          "econ": 7.14,
+          "dotPct": 33.2
+        },
+        "Death": {
+          "balls": 486,
+          "runs": 659,
+          "wkts": 54,
+          "econ": 8.14,
+          "dotPct": 35.6
+        }
+      },
+      "dotRateOverall": 33.9,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Retained \u2014 Unavailable (Gujarat Titans)",
+    "auctionStatusCode": "RETAINED_UNAVAILABLE",
+    "currentFranchise": "Gujarat Titans",
+    "contractDetails": "Capped Retention (\u20b918.00 Cr)",
+    "isRRAcquisitionTarget": false,
+    "availabilityReason": "Franchise cornerstone retained by Gujarat Titans. Unavailable for recruitment.",
+    "auctionOpportunityScore": 0.0,
+    "squadRoleFit": "World-Class Wrist Spinner",
+    "acquisitionPriority": "N/A \u2014 Retained by Rival Franchise",
+    "isRetained": true,
+    "retainedFranchise": "Gujarat Titans",
+    "alternateTarget": "Ravi Bishnoi",
+    "alternateReason": "Rapid skiddy leg-spin and googlies; high dot-ball percentage (38.8%) forcing false shots."
+  },
+  {
+    "rank": 8,
+    "playerId": 8661,
+    "name": "Matheesha Pathirana",
+    "team": "Chennai Super Kings",
+    "nationality": "Sri Lanka",
+    "cricketBoard": "Sri Lanka Cricket (SLC)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b911\u201314 Cr (Death Over Closer)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "Slinging Yorker Weapon",
+    "rrTacticalFit": "Eligible Overseas (Sri Lanka). Searing round-arm slinging yorker specialist (647 pressure deliveries). Unmatched death-over wicket threat to pair with Sandeep Sharma.",
+    "brsScore": 69.06,
+    "pressRawBalls": 647,
+    "pressRawRuns": 832,
+    "pressWickets": 55,
+    "pressEcon": 7.73,
+    "baseEcon": 7.74,
+    "deltaEcon": 0.02,
+    "dotPct": 38.9,
+    "boundaryPct": 15.9,
+    "matches": 41,
+    "iplBalls": 482,
+    "tier1Balls": 563,
+    "radar": {
+      "runSuppression": 59,
+      "dotPercentage": 62,
+      "boundaryControl": 56,
+      "wicketThreat": 63,
+      "clutchLift": 50,
+      "sampleConfidence": 100
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 2,
+        "runs": 2,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 173,
+        "runs": 187,
+        "wickets": 8
+      },
+      "death": {
+        "balls": 472,
+        "runs": 643,
+        "wickets": 47
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 305,
+        "runs": 406,
+        "wickets": 28
+      },
+      "defendingTarget": {
+        "balls": 342,
+        "runs": 426,
+        "wickets": 27
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Off Cutter",
+          "count": 240,
+          "pct": 1500.0
+        },
+        {
+          "style": "Seamed Out",
+          "count": 156,
+          "pct": 975.0
+        },
+        {
+          "style": "Straight",
+          "count": 139,
+          "pct": 868.8
+        },
+        {
+          "style": "Bouncer",
+          "count": 106,
+          "pct": 662.5
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 835,
+          "runs": 1094,
+          "wkts": 53,
+          "econ": 7.86,
+          "dotPct": 28.9
+        },
+        "LHB": {
+          "balls": 425,
+          "runs": 542,
+          "wkts": 27,
+          "econ": 7.65,
+          "dotPct": 33.4
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 75,
+          "runs": 101,
+          "wkts": 4,
+          "econ": 8.08,
+          "dotPct": 34.7
+        },
+        "Middle": {
+          "balls": 580,
+          "runs": 697,
+          "wkts": 26,
+          "econ": 7.21,
+          "dotPct": 31.7
+        },
+        "Death": {
+          "balls": 605,
+          "runs": 838,
+          "wkts": 50,
+          "econ": 8.31,
+          "dotPct": 28.6
+        }
+      },
+      "dotRateOverall": 30.4,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Retained \u2014 Unavailable (Chennai Super Kings)",
+    "auctionStatusCode": "RETAINED_UNAVAILABLE",
+    "currentFranchise": "Chennai Super Kings",
+    "contractDetails": "Capped Retention (\u20b913.00 Cr)",
+    "isRRAcquisitionTarget": false,
+    "availabilityReason": "Franchise death-over cornerstone retained by Chennai Super Kings. Unavailable for recruitment.",
+    "auctionOpportunityScore": 0.0,
+    "squadRoleFit": "Slinging Death Yorker Closer",
+    "acquisitionPriority": "N/A \u2014 Retained by Rival Franchise",
+    "isRetained": true,
+    "retainedFranchise": "Chennai Super Kings",
+    "alternateTarget": "Nuwan Thushara",
+    "alternateReason": "Sling-action toe-crusher at 140+ km/h; identical trajectory variance for death-over defence."
+  },
+  {
+    "rank": 9,
+    "playerId": 2382,
+    "name": "Jamie Overton",
+    "team": "England",
+    "nationality": "England",
+    "cricketBoard": "England & Wales Cricket Board (ECB)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b93\u20135 Cr (Heavy-Ball All-Rounder)",
+    "pool": "IPL_PARTIAL",
+    "poolLabel": "IPL Partial",
+    "poolDescription": "Active IPL tournament experience augmented by top-tier international T20I matches.",
+    "archetype": "Hard-Length Seam Muscle",
+    "rrTacticalFit": "Eligible Overseas (England). 8.11 pressure economy with steep bounce and heavy reverse-swing. Lower-order power hitting utility.",
+    "brsScore": 68.88,
+    "pressRawBalls": 204,
+    "pressRawRuns": 272,
+    "pressWickets": 21,
+    "pressEcon": 8.11,
+    "baseEcon": 8.39,
+    "deltaEcon": 0.28,
+    "dotPct": 39.7,
+    "boundaryPct": 17.2,
+    "matches": 19,
+    "iplBalls": 90,
+    "tier1Balls": 166,
+    "radar": {
+      "runSuppression": 54,
+      "dotPercentage": 63,
+      "boundaryControl": 51,
+      "wicketThreat": 77,
+      "clutchLift": 56,
+      "sampleConfidence": 34
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 0,
+        "runs": 0,
+        "wickets": 0
+      },
+      "middle": {
+        "balls": 68,
+        "runs": 73,
+        "wickets": 4
+      },
+      "death": {
+        "balls": 136,
+        "runs": 199,
+        "wickets": 17
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 97,
+        "runs": 159,
+        "wickets": 11
+      },
+      "defendingTarget": {
+        "balls": 107,
+        "runs": 113,
+        "wickets": 10
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Seamed In",
+          "count": 142,
+          "pct": 835.3
+        },
+        {
+          "style": "Off Cutter",
+          "count": 121,
+          "pct": 711.8
+        },
+        {
+          "style": "Seamed Out",
+          "count": 69,
+          "pct": 405.9
+        },
+        {
+          "style": "Straight",
+          "count": 63,
+          "pct": 370.6
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 324,
+          "runs": 431,
+          "wkts": 24,
+          "econ": 7.98,
+          "dotPct": 35.8
+        },
+        "LHB": {
+          "balls": 201,
+          "runs": 287,
+          "wkts": 12,
+          "econ": 8.57,
+          "dotPct": 35.3
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 89,
+          "runs": 167,
+          "wkts": 1,
+          "econ": 11.26,
+          "dotPct": 30.3
+        },
+        "Middle": {
+          "balls": 291,
+          "runs": 340,
+          "wkts": 18,
+          "econ": 7.01,
+          "dotPct": 36.4
+        },
+        "Death": {
+          "balls": 145,
+          "runs": 211,
+          "wkts": 17,
+          "econ": 8.73,
+          "dotPct": 37.2
+        }
+      },
+      "dotRateOverall": 35.6,
+      "genomePersona": "Multi-Phase Strike Weapon"
+    },
+    "auctionAvailabilityStatus": "Available in Auction \u2014 Prime Target",
+    "auctionStatusCode": "AVAILABLE_AUCTION_TARGET",
+    "currentFranchise": "England (ECB) / CSK (Released)",
+    "contractDetails": "Overseas Fast Bowling All-Rounder (Base \u20b91.50 Cr)",
+    "isRRAcquisitionTarget": true,
+    "availabilityReason": "Heavy-ball seam all-rounder (8.11 pressure economy, 174 SR). Provides hard lengths at SMS Jaipur and power hitting at No. 8.",
+    "auctionOpportunityScore": 85.0,
+    "squadRoleFit": "Fast-Bowling All-Rounder (Overseas Slot)",
+    "acquisitionPriority": "Tier 2 Tactical Target",
+    "isRetained": false,
+    "retainedFranchise": null,
+    "alternateTarget": null,
+    "alternateReason": null
+  },
+  {
+    "rank": 10,
+    "playerId": 2933,
+    "name": "Jasprit Bumrah",
+    "team": "Mumbai Indians",
+    "nationality": "India",
+    "cricketBoard": "BCCI (India)",
+    "isAuctionEligible": true,
+    "estimatedPriceRange": "\u20b918\u201325 Cr (The Gold Standard)",
+    "pool": "IPL_VERIFIED",
+    "poolLabel": "IPL Verified",
+    "poolDescription": "Proven performance in the Indian Premier League \u2014 verified against world-class franchise lineups under maximum crowd pressure.",
+    "archetype": "All-Phase Fast Bowling Gold Standard",
+    "rrTacticalFit": "Verified Indian National. The premier all-phase T20 fast bowler in cricket history. 673 pressure balls, 7.17 economy, 48 wickets under maximum leverage.",
+    "brsScore": 68.41,
+    "pressRawBalls": 673,
+    "pressRawRuns": 801,
+    "pressWickets": 48,
+    "pressEcon": 7.17,
+    "baseEcon": 6.82,
+    "deltaEcon": -0.35,
+    "dotPct": 37.7,
+    "boundaryPct": 13.7,
+    "matches": 59,
+    "iplBalls": 477,
+    "tier1Balls": 615,
+    "radar": {
+      "runSuppression": 67,
+      "dotPercentage": 60,
+      "boundaryControl": 65,
+      "wicketThreat": 53,
+      "clutchLift": 41,
+      "sampleConfidence": 100
+    },
+    "phaseSplits": {
+      "powerplay": {
+        "balls": 38,
+        "runs": 63,
+        "wickets": 3
+      },
+      "middle": {
+        "balls": 145,
+        "runs": 157,
+        "wickets": 9
+      },
+      "death": {
+        "balls": 490,
+        "runs": 581,
+        "wickets": 36
+      }
+    },
+    "inningsSplits": {
+      "firstInnings": {
+        "balls": 347,
+        "runs": 405,
+        "wickets": 26
+      },
+      "defendingTarget": {
+        "balls": 326,
+        "runs": 396,
+        "wickets": 22
+      }
+    },
+    "dna": {
+      "topDeliveryStyles": [
+        {
+          "style": "Off Cutter",
+          "count": 342,
+          "pct": 2280.0
+        },
+        {
+          "style": "Seamed In",
+          "count": 296,
+          "pct": 1973.3
+        },
+        {
+          "style": "Full Toss",
+          "count": 217,
+          "pct": 1446.7
+        },
+        {
+          "style": "Inswing",
+          "count": 205,
+          "pct": 1366.7
+        }
+      ],
+      "rhbVsLhb": {
+        "RHB": {
+          "balls": 1197,
+          "runs": 1426,
+          "wkts": 49,
+          "econ": 7.15,
+          "dotPct": 40.9
+        },
+        "LHB": {
+          "balls": 513,
+          "runs": 545,
+          "wkts": 32,
+          "econ": 6.37,
+          "dotPct": 41.9
+        }
+      },
+      "phaseBreakdown": {
+        "Powerplay": {
+          "balls": 739,
+          "runs": 854,
+          "wkts": 26,
+          "econ": 6.93,
+          "dotPct": 49.3
+        },
+        "Middle": {
+          "balls": 426,
+          "runs": 468,
+          "wkts": 18,
+          "econ": 6.59,
+          "dotPct": 38.3
+        },
+        "Death": {
+          "balls": 545,
+          "runs": 649,
+          "wkts": 37,
+          "econ": 7.14,
+          "dotPct": 32.5
+        }
+      },
+      "dotRateOverall": 41.2,
+      "genomePersona": "Death Lockdown Finisher"
+    },
+    "auctionAvailabilityStatus": "Retained \u2014 Unavailable (Mumbai Indians)",
+    "auctionStatusCode": "RETAINED_UNAVAILABLE",
+    "currentFranchise": "Mumbai Indians",
+    "contractDetails": "Capped Retention (\u20b918.00 Cr)",
+    "isRRAcquisitionTarget": false,
+    "availabilityReason": "Franchise icon and undisputed global pace benchmark retained by Mumbai Indians. Zero auction availability.",
+    "auctionOpportunityScore": 0.0,
+    "squadRoleFit": "Multi-Phase Fast Bowling Legend",
+    "acquisitionPriority": "N/A \u2014 Retained by Rival Franchise",
+    "isRetained": true,
+    "retainedFranchise": "Mumbai Indians",
+    "alternateTarget": "Avesh Khan",
+    "alternateReason": "Indian international death specialist; proven block-hole accuracy and hard-length discipline."
+  }
+]

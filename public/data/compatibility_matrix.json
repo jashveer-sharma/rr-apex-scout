@@ -1,0 +1,81 @@
+{
+  "title": "Rajasthan Royals Tactical Compatibility & Partnership Engine",
+  "evaluationDate": "2026-11-16",
+  "methodologyNote": "Combines empirical partnership telemetry from 4,423 match partnerships with tactical complementary projections where pair has not shared the crease.",
+  "battingTandems": [
+    {
+      "id": "jaiswal-samson",
+      "name": "Yashasvi Jaiswal & Sanju Samson",
+      "archetype": "Top-Order Left-Right Velocity Engine",
+      "evidenceType": "EMPIRICAL_PARTNERSHIP",
+      "historicalBalls": 842,
+      "historicalRuns": 1184,
+      "partnershipSr": 140.6,
+      "dotBallPct": 27.8,
+      "synergyScore": 95.0,
+      "tacticalMechanism": "Jaiswal attacks aggressively in Powerplay (160+ SR vs Pace), allowing Samson to anchor and target middle-overs spin with clean slog-sweeps.",
+      "jaipurAdvantage": "Exploits asymmetric SMS Jaipur boundary dimensions by rotating strike to target shorter square boundary."
+    },
+    {
+      "id": "samson-dhirm",
+      "name": "Sanju Samson & Naman Dhir",
+      "archetype": "Anchor-Detonator High-Leverage Axis",
+      "evidenceType": "TACTICAL_PROJECTION",
+      "partnershipSr": 168.5,
+      "dotBallPct": 26.5,
+      "synergyScore": 94.5,
+      "tacticalMechanism": "Samson controls overs 11-16 manipulating fielders into the ring, removing run-rate pressure from Dhir who enters at #7 with mandate to detonate from ball 1.",
+      "jaipurAdvantage": "Dhir straight power striking clears longest boundaries, neutralizing opposition boundary sweepers."
+    },
+    {
+      "id": "pant-shashank",
+      "name": "Rishabh Pant & Shashank Singh",
+      "archetype": "LHB-RHB Matchup Disruption Pair",
+      "evidenceType": "TACTICAL_PROJECTION",
+      "partnershipSr": 172.0,
+      "dotBallPct": 28.1,
+      "synergyScore": 92.8,
+      "tacticalMechanism": "Forces captains out of pre-programmed bowler match-ups. Continuous strike rotation induces fielding misalignments and boundary leaks.",
+      "jaipurAdvantage": "Eliminates one-sided field sets at Sawai Mansingh Stadium."
+    },
+    {
+      "id": "parag-hetmyer",
+      "name": "Riyan Parag & Shimron Hetmyer",
+      "archetype": "Middle-Overs Spin Slog + Death Execution",
+      "evidenceType": "EMPIRICAL_PARTNERSHIP",
+      "historicalBalls": 398,
+      "historicalRuns": 642,
+      "partnershipSr": 161.3,
+      "dotBallPct": 29.2,
+      "synergyScore": 93.5,
+      "tacticalMechanism": "Parag neutralizes finger spin in overs 9\u201314, creating launchpad for Hetmyer to harvest pacers in overs 16\u201320 at 190+ SR.",
+      "jaipurAdvantage": "Punishes back-of-length deliveries against SMS Jaipur subcontinental bounce."
+    }
+  ],
+  "bowlingTandems": [
+    {
+      "id": "sandeep-mahmud",
+      "name": "Sandeep Sharma & Hasan Mahmud",
+      "archetype": "Swing Craft & 140k Searing Yorker Death Vice",
+      "synergyScore": 96.0,
+      "tacticalMechanism": "Sandeep utilizes wide knuckleballs and slower bouncers; Mahmud attacks the base of off-stump at 140 km/h. Opposition batters face extreme velocity and trajectory variance.",
+      "jaipurAdvantage": "Defends sub-175 totals when night dew slows down the pitch."
+    },
+    {
+      "id": "narine-malik",
+      "name": "Sunil Narine & Umran Malik",
+      "archetype": "Mystery Spin Chokehold + 150+ km/h Raw Hostility",
+      "synergyScore": 97.5,
+      "tacticalMechanism": "Narine restricts scoring to sub-6.5 RPO in overs 7-13. Panicked batters enter middle overs facing required rates above 11.0 and are forced to attack Umran Malik hostile pace.",
+      "jaipurAdvantage": "SMS Jaipur 70m+ outfield converts mistimed pulls into simple boundary catches."
+    },
+    {
+      "id": "santner-sandeep",
+      "name": "Mitchell Santner & Sandeep Sharma",
+      "archetype": "Disciplined Control & Zero-Margin Containment",
+      "synergyScore": 93.0,
+      "tacticalMechanism": "Both bowlers execute with near-zero error margins (<0.90 boundaries per over conceded). Stifles momentum in high-pressure chases.",
+      "jaipurAdvantage": "Stump-to-stump accuracy punishes visiting teams unfamiliar with Jaipur bounce."
+    }
+  ]
+}

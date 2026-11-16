@@ -1,0 +1,772 @@
+{
+  "auditVersion": "3.0.0",
+  "governingBody": "BCCI / IPL Governing Council",
+  "totalExcludedPlayers": 68,
+  "auditDate": "2026-11-16",
+  "records": [
+    {
+      "playerId": 470,
+      "playerName": "Mohammad Amir",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.778222"
+    },
+    {
+      "playerId": 2485,
+      "playerName": "Babar Azam",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.780215"
+    },
+    {
+      "playerId": 2490,
+      "playerName": "Mohammad Nawaz",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.782210"
+    },
+    {
+      "playerId": 2892,
+      "playerName": "Asif Ali",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.784204"
+    },
+    {
+      "playerId": 2921,
+      "playerName": "Fakhar Zaman",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.790189"
+    },
+    {
+      "playerId": 3024,
+      "playerName": "Mohammad Rizwan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.792186"
+    },
+    {
+      "playerId": 3033,
+      "playerName": "Usman Qadir",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.793182"
+    },
+    {
+      "playerId": 3038,
+      "playerName": "Hussain Talat",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.795179"
+    },
+    {
+      "playerId": 3056,
+      "playerName": "Iftikhar Ahmed",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.797170"
+    },
+    {
+      "playerId": 3077,
+      "playerName": "Usama Mir",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.798166"
+    },
+    {
+      "playerId": 3083,
+      "playerName": "Mohammad Ali",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.799163"
+    },
+    {
+      "playerId": 3091,
+      "playerName": "Sahibzada Farhan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.800160"
+    },
+    {
+      "playerId": 3097,
+      "playerName": "Shan Masood",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.803159"
+    },
+    {
+      "playerId": 3489,
+      "playerName": "Salman Agha",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.807143"
+    },
+    {
+      "playerId": 3578,
+      "playerName": "Imad Wasim",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.808140"
+    },
+    {
+      "playerId": 3623,
+      "playerName": "Hasan Ali",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.809137"
+    },
+    {
+      "playerId": 4111,
+      "playerName": "Khushdil Shah",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.810134"
+    },
+    {
+      "playerId": 4926,
+      "playerName": "Shadab Khan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.811131"
+    },
+    {
+      "playerId": 5189,
+      "playerName": "Faheem Ashraf",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.812128"
+    },
+    {
+      "playerId": 5979,
+      "playerName": "Abrar Ahmed",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.812128"
+    },
+    {
+      "playerId": 6355,
+      "playerName": "Shaheen Afridi",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.813126"
+    },
+    {
+      "playerId": 6440,
+      "playerName": "Omair Yousuf",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.814123"
+    },
+    {
+      "playerId": 6441,
+      "playerName": "Abdullah Shafique",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.815121"
+    },
+    {
+      "playerId": 6443,
+      "playerName": "Rohail Nazir",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.816118"
+    },
+    {
+      "playerId": 6506,
+      "playerName": "Mohammad Imran Randhawa",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.817115"
+    },
+    {
+      "playerId": 6677,
+      "playerName": "Mohammad Hasnain",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.821755"
+    },
+    {
+      "playerId": 6783,
+      "playerName": "Azam Khan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.825307"
+    },
+    {
+      "playerId": 6922,
+      "playerName": "Abdul Samad",
+      "teamsRepresented": [
+        "Pakistan A",
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.826338"
+    },
+    {
+      "playerId": 7338,
+      "playerName": "Haider Ali",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.828300"
+    },
+    {
+      "playerId": 7355,
+      "playerName": "Tayyab Tahir",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.829293"
+    },
+    {
+      "playerId": 7364,
+      "playerName": "Haris Rauf",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.830290"
+    },
+    {
+      "playerId": 7690,
+      "playerName": "Saim Ayub",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.831288"
+    },
+    {
+      "playerId": 7692,
+      "playerName": "Qasim Akram",
+      "teamsRepresented": [
+        "Pakistan A",
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.831288"
+    },
+    {
+      "playerId": 7696,
+      "playerName": "Mohammad Wasim",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.832285"
+    },
+    {
+      "playerId": 7699,
+      "playerName": "Abbas Afridi",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.833282"
+    },
+    {
+      "playerId": 8049,
+      "playerName": "Naseem Shah",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.838270"
+    },
+    {
+      "playerId": 8739,
+      "playerName": "Muhammad Irfan",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.841263"
+    },
+    {
+      "playerId": 8741,
+      "playerName": "Mohammad Haris",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.842258"
+    },
+    {
+      "playerId": 8743,
+      "playerName": "Muhammad Shehzad",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.842258"
+    },
+    {
+      "playerId": 19132,
+      "playerName": "Khurram Shehzad",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.843256"
+    },
+    {
+      "playerId": 19145,
+      "playerName": "Aamer Jamal",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.846252"
+    },
+    {
+      "playerId": 19530,
+      "playerName": "Shahnawaz Dhani",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.847249"
+    },
+    {
+      "playerId": 19969,
+      "playerName": "Mubasir Khan",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.848245"
+    },
+    {
+      "playerId": 20229,
+      "playerName": "Mohammad Ali",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.849241"
+    },
+    {
+      "playerId": 20310,
+      "playerName": "Ahmed Daniyal",
+      "teamsRepresented": [
+        "Pakistan A",
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.850237"
+    },
+    {
+      "playerId": 20327,
+      "playerName": "Usman Khan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.858050"
+    },
+    {
+      "playerId": 20704,
+      "playerName": "Salman Mirza",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.861035"
+    },
+    {
+      "playerId": 25030,
+      "playerName": "Zaman Khan",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.863031"
+    },
+    {
+      "playerId": 26839,
+      "playerName": "Haseebullah Khan",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.865024"
+    },
+    {
+      "playerId": 26843,
+      "playerName": "Maaz Sadaqat",
+      "teamsRepresented": [
+        "Pakistan A",
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.866022"
+    },
+    {
+      "playerId": 26845,
+      "playerName": "Mehran Mumtaz",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.867017"
+    },
+    {
+      "playerId": 26848,
+      "playerName": "Ghazi Ghouri",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.874009"
+    },
+    {
+      "playerId": 27516,
+      "playerName": "Ihsanullah Ihsanullah",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.874999"
+    },
+    {
+      "playerId": 27517,
+      "playerName": "Yasir Khan",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.875995"
+    },
+    {
+      "playerId": 33675,
+      "playerName": "Mohammad Naeem",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.876991"
+    },
+    {
+      "playerId": 34466,
+      "playerName": "Arafat Minhas",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.877988"
+    },
+    {
+      "playerId": 34485,
+      "playerName": "Sufiyan Muqeem",
+      "teamsRepresented": [
+        "Pakistan",
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.878985"
+    },
+    {
+      "playerId": 34880,
+      "playerName": "Saad Masood",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.878985"
+    },
+    {
+      "playerId": 37879,
+      "playerName": "Khawaja Nafay",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.879982"
+    },
+    {
+      "playerId": 46982,
+      "playerName": "Shahid Aziz",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.880980"
+    },
+    {
+      "playerId": 46996,
+      "playerName": "Mohammad Faiq",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.881978"
+    },
+    {
+      "playerId": 47017,
+      "playerName": "Mohammad Jnr",
+      "teamsRepresented": [
+        "Pakistan A",
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.882974"
+    },
+    {
+      "playerId": 47724,
+      "playerName": "Jahandad Khan",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.883972"
+    },
+    {
+      "playerId": 48278,
+      "playerName": "Ubaid Shah",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.889972"
+    },
+    {
+      "playerId": 49003,
+      "playerName": "Hasan Nawaz",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.891959"
+    },
+    {
+      "playerId": 52338,
+      "playerName": "Usman Tariq",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.894943"
+    },
+    {
+      "playerId": 69806,
+      "playerName": "Mohammad Salman",
+      "teamsRepresented": [
+        "Pakistan A"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.896943"
+    },
+    {
+      "playerId": 71727,
+      "playerName": "Razaullah Razaullah",
+      "teamsRepresented": [
+        "Pakistan"
+      ],
+      "regulatoryCategory": "BCCI_IPL_POLICY_RESTRICTED",
+      "governingClause": "BCCI Standing Regulatory Policy (2009\u2013Present) restricting participation of cricketers registered under Pakistan Cricket Board (PCB).",
+      "actionTaken": "EXCLUDED_FROM_ANALYTICAL_RANKING_AND_PLATFORM_DISPLAY",
+      "auditTimestamp": "2026-11-16T12:23:20.898934"
+    }
+  ]
+}

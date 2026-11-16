@@ -1,0 +1,49 @@
+{
+  "title": "Rajasthan Royals Captaincy & Leadership Intelligence",
+  "evaluationDate": "2026-11-16",
+  "incumbentCaptain": {
+    "name": "Sanju Samson",
+    "role": "Captain & Wicketkeeper-Batter",
+    "contractStatus": "Retained Core (\u20b918.00 Cr)",
+    "tenure": "2021\u2013Present (5 Seasons)",
+    "matchesCaptained": 53,
+    "matchesWon": 28,
+    "winPercentage": 52.8,
+    "chaseWinPct": 53.8,
+    "defendWinPct": 51.9,
+    "playoffAppearances": "2022 (IPL Finalists), 2024 (Qualifier 2)",
+    "tacticalProfile": "Calm, unflappable demeanor under extreme situational leverage. Exceptional wicketkeeping perspective provides real-time field angle adjustments and bowler encouragement without emotional volatility.",
+    "brsScore": 68.2,
+    "recommendationStatus": "CONFIRMED PREFERRED CAPTAIN (Continuity Advantage)"
+  },
+  "alternativeCandidates": [
+    {
+      "name": "Jos Buttler",
+      "role": "Vice-Captain / Senior Leader",
+      "previousExperience": "England National T20 Captain (2022 T20 World Cup Champions)",
+      "leadershipTemperament": "Aggressive tactical mindset; exceptional white-ball pedigree",
+      "availability": "Auction Target Candidate (Requires Acquisition Bid)",
+      "suitabilityRating": 91.5
+    },
+    {
+      "name": "Riyan Parag",
+      "role": "Emerging Vice-Captain / Domestic Succession",
+      "previousExperience": "Assam State Captain (Record-breaking domestic run-scorer & captain)",
+      "leadershipTemperament": "Proactive communicator; exceptional tactical growth in 2024\u20132026 cycle",
+      "availability": "Retained Core (\u20b914.00 Cr)",
+      "suitabilityRating": 88.0
+    },
+    {
+      "name": "Mitchell Santner",
+      "role": "Senior Bowling Tactician",
+      "previousExperience": "New Zealand T20I Captain",
+      "leadershipTemperament": "Understated, analytical field strategist; expert in spin chokeholds",
+      "availability": "Auction Target Candidate (NZC NOC Cleared)",
+      "suitabilityRating": 86.5
+    }
+  ],
+  "successionRoadmap": {
+    "cycle2027_2028": "Sanju Samson continues as undisputed franchise captain, supported by Riyan Parag as designated Vice-Captain and Jos Buttler / Mitchell Santner as senior on-field advisors.",
+    "cycle2029_2030": "Structured leadership transition to Riyan Parag or Yashasvi Jaiswal following 2-year leadership mentorship program."
+  }
+}

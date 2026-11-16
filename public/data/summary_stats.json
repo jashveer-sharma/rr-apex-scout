@@ -1,0 +1,23 @@
+{
+  "totalDeliveries": 178240,
+  "totalMatches": 883,
+  "totalCompetitions": 141,
+  "highPressureDeliveries": 60209,
+  "highPressurePct": 33.8,
+  "qualifiedBatters": 150,
+  "qualifiedBowlers": 137,
+  "iplVerifiedBatters": 86,
+  "internationalBatters": 33,
+  "iplVerifiedBowlers": 90,
+  "internationalBowlers": 21,
+  "pressurePriors": {
+    "batterSr": 162.8,
+    "batterAvg": 30.9,
+    "batterDot": 28.6,
+    "batterBoundary": 21.9,
+    "bowlerEcon": 9.09,
+    "bowlerDot": 33.5,
+    "bowlerBoundary": 19.7,
+    "priorSource": "IPL-calibrated benchmark (franchise death & pressure overs)"
+  }
+}
