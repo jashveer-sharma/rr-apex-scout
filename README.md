@@ -2,7 +2,7 @@
 ## IPL 2027 Mini-Auction Decision Support System & Decision Telemetry
 ### Official Entry · Unstop SupeRR Selector Season 2 (Round 1)
 
-> **Live Deployment:** [Live Platform Link — Hosted Environment](https://rr-apex-scout.vercel.app) *(Update with your production URL)*  
+> **Live Deployment:** [https://rrapexscout.netlify.app/](https://rrapexscout.netlify.app/)  
 > **Official Deliverables:** [Methodology Whitepaper PDF](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf) | [Executive Presentation PPTX](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx)  
 > **Target Event:** IPL 2027 Mini-Auction · December 16, 2026 (Goa)  
 > **Telemetry Scope:** 883 Matches | 200,999 Deliveries | 1,217 Player Universe | 100% BCCI/IPL Policy Compliant  
@@ -164,7 +164,7 @@ Before any mathematical modeling was executed, an automated regulatory audit eva
 | :--- | :---: | :--- | :--- |
 | **Methodology Whitepaper** | `.pdf` | [`/public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf`](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf) | 6-Page publication-grade whitepaper containing full Bayesian derivations, register completeness, and sign-offs. |
 | **Executive Presentation** | `.pptx` | [`/public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx`](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx) | 24-Slide presentation deck built with RR visual identity, dual-card player registers, and auction scenarios. |
-| **Interactive Scout Platform**| Next.js | [Live Platform](https://rr-apex-scout.vercel.app) *(Host link)* | 14-Chapter decision-support system featuring DNA inspection modals, compatibility matrix, and simulator. |
+| **Interactive Scout Platform**| Next.js | [Live Platform](https://rrapexscout.netlify.app/) | 14-Chapter decision-support system featuring DNA inspection modals, compatibility matrix, and simulator. |
 | **Verified Data Pipeline** | JSON / Python | `data/processed/` & `scripts/` | Deterministic, reproducible Bayesian calculation pipelines with audit trails. |
 
 ---
