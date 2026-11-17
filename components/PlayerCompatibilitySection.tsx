@@ -111,21 +111,21 @@ export default function PlayerCompatibilitySection() {
   const activeBatting = battingTandems[selectedBattingIndex];
 
   return (
-    <section id="compatibility" className="py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="compatibility" className="py-16 sm:py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Editorial Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 08 / PLAYER COMPATIBILITY & COMBINATION STRATEGY
           </span>
         </div>
 
         {/* Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               CRICKET IS PLAYED IN PAIRS. <br />
               <span className="text-rr-pink">ENGINEERED COMBINATION SYNERGIES</span>
             </h2>
@@ -137,10 +137,10 @@ export default function PlayerCompatibilitySection() {
         </div>
 
         {/* Mode Selector Tabs */}
-        <div className="flex items-center gap-2 mb-8">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 mb-6 sm:mb-8">
           <button
             onClick={() => setActiveTab('batting')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'batting'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -150,7 +150,7 @@ export default function PlayerCompatibilitySection() {
           </button>
           <button
             onClick={() => setActiveTab('bowling')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'bowling'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -160,7 +160,7 @@ export default function PlayerCompatibilitySection() {
           </button>
           <button
             onClick={() => setActiveTab('balance')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'balance'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'

@@ -128,21 +128,21 @@ export default function HiddenGemsSection() {
   ];
 
   return (
-    <section id="gems" className="py-24 border-t border-rr-border bg-white text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="gems" className="py-16 sm:py-24 border-t border-rr-border bg-white text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Section Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 12 / UNDERRATED MARKET ASSETS
           </span>
         </div>
 
         {/* Section Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               HIGH-LEVERAGE ASYMMETRY: <br />
               <span className="text-rr-pink">VALUATION EFFICIENCY GEMS</span>
             </h2>

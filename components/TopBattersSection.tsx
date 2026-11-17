@@ -89,66 +89,66 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
   });
 
   return (
-    <section id="batters" className="py-28 border-b border-[#E5E7EB] bg-white">
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+    <section id="batters" className="py-16 sm:py-28 border-b border-[#E5E7EB] bg-white">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Eyebrow */}
         <div className="flex items-center gap-3 mb-5">
           <span className="w-6 h-px bg-[#EA1D76]" />
-          <span className="text-[11px] font-mono font-semibold tracking-[0.18em] uppercase text-[#EA1D76]">
+          <span className="text-[10px] sm:text-[11px] font-mono font-semibold tracking-[0.18em] uppercase text-[#EA1D76]">
             CHAPTER 03 / STATISTICAL PERFORMANCE RANKINGS
           </span>
         </div>
 
         {/* Section Heading & Subtitle */}
-        <div className="grid lg:grid-cols-12 gap-8 items-end mb-12">
+        <div className="grid lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-10 sm:mb-12">
           <div className="lg:col-span-8">
             <h2
               className="font-serif font-normal text-[#10152B] tracking-tight"
-              style={{ fontSize: 'clamp(2.25rem, 4.5vw, 3.75rem)', lineHeight: '1.1' }}
+              style={{ fontSize: 'clamp(1.75rem, 4vw, 3.75rem)', lineHeight: '1.1' }}
             >
               Top 10 Most Reliable Batters
             </h2>
           </div>
           <div className="lg:col-span-4">
-            <p className="text-sm text-[#4B5563] leading-relaxed">
+            <p className="text-xs sm:text-sm text-[#4B5563] leading-relaxed">
               Empirical Bayesian reliability rankings under high situational leverage (SLI ≥ 6.5). Reflects true batting quality; franchise contract availability is independently audited below.
             </p>
           </div>
         </div>
 
         {/* Filter Navigation Tabs (EterPay Reference) */}
-        <div className="flex flex-wrap items-center justify-between gap-4 mb-8 pb-4 border-b border-[#E5E7EB]">
-          <div className="flex items-center border border-[#E5E7EB] rounded-[2px] bg-[#F5F4F7] p-1">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6 pb-4 border-b border-[#E5E7EB]">
+          <div className="flex flex-wrap items-center border border-[#E5E7EB] rounded-[2px] bg-[#F5F4F7] p-1 gap-1">
             <button
               onClick={() => setActiveTab('all')}
-              className={`px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
+              className={`px-3 sm:px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
                 activeTab === 'all'
                   ? 'bg-white text-[#10152B] shadow-sm'
                   : 'text-[#6B7280] hover:text-[#10152B]'
               }`}
             >
-              All Top 10 Batters (Empirical BRS)
+              All Top 10 Batters
             </button>
             <button
               onClick={() => setActiveTab('available')}
-              className={`px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
+              className={`px-3 sm:px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
                 activeTab === 'available'
                   ? 'bg-white text-[#EA1D76] shadow-sm'
                   : 'text-[#6B7280] hover:text-[#10152B]'
               }`}
             >
-              RR Auction Targets Only ({batters.filter(b => b.isRRAcquisitionTarget).length})
+              RR Targets ({batters.filter(b => b.isRRAcquisitionTarget).length})
             </button>
             <button
               onClick={() => setActiveTab('retained')}
-              className={`px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
+              className={`px-3 sm:px-4 py-1.5 text-xs font-mono font-semibold uppercase tracking-wider rounded-[2px] transition-colors ${
                 activeTab === 'retained'
                   ? 'bg-white text-[#10152B] shadow-sm'
                   : 'text-[#6B7280] hover:text-[#10152B]'
               }`}
             >
-              Retained / Unavailable ({batters.filter(b => !b.isRRAcquisitionTarget).length})
+              Retained ({batters.filter(b => !b.isRRAcquisitionTarget).length})
             </button>
           </div>
 
@@ -157,9 +157,15 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
           </div>
         </div>
 
+        {/* Mobile Horizontal Scroll Indicator */}
+        <div className="sm:hidden text-[10px] font-mono text-[#6B7280] mb-2 flex items-center justify-between">
+          <span>← Scroll table horizontally →</span>
+          <span className="text-[#EA1D76]">Tap row for DNA dossier</span>
+        </div>
+
         {/* ── Professional Data Table (High Density, Clean Typography) ─────── */}
-        <div className="overflow-x-auto border border-[#E5E7EB] rounded-[2px]">
-          <table className="w-full text-left border-collapse">
+        <div className="overflow-x-auto border border-[#E5E7EB] rounded-[2px] -mx-4 sm:mx-0">
+          <table className="w-full text-left border-collapse min-w-[700px]">
             <thead>
               <tr className="bg-[#F5F4F7] border-b border-[#E5E7EB] text-[11px] font-mono uppercase tracking-wider text-[#6B7280]">
                 <th className="py-3.5 px-4 font-semibold w-14">Rank</th>
@@ -281,61 +287,61 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
 
       {/* ── Player Detail Dossier Modal (Clean Structured Design) ────────── */}
       {selectedPlayer && (
-        <div className="fixed inset-0 z-50 bg-[#10152B]/80 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white border border-[#E5E7EB] rounded-[2px] max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 shadow-2xl">
+        <div className="fixed inset-0 z-50 bg-[#10152B]/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4">
+          <div className="bg-white border border-[#E5E7EB] rounded-[2px] max-w-3xl w-full max-h-[92vh] overflow-y-auto p-4 sm:p-8 shadow-2xl">
             {/* Modal Header */}
-            <div className="flex items-start justify-between border-b border-[#E5E7EB] pb-5 mb-6">
+            <div className="flex items-start justify-between border-b border-[#E5E7EB] pb-4 sm:pb-5 mb-5 sm:mb-6">
               <div>
-                <div className="flex items-center gap-2 mb-1.5">
-                  <span className="text-xs font-mono font-bold text-[#EA1D76]">RANK #{selectedPlayer.rank} BATTER</span>
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5">
+                  <span className="text-[11px] sm:text-xs font-mono font-bold text-[#EA1D76]">RANK #{selectedPlayer.rank} BATTER</span>
                   <span className="text-xs text-[#9CA3AF]">·</span>
-                  <span className="text-xs font-mono text-[#6B7280]">{selectedPlayer.nationality} ({selectedPlayer.cricketBoard})</span>
+                  <span className="text-[11px] sm:text-xs font-mono text-[#6B7280]">{selectedPlayer.nationality} ({selectedPlayer.cricketBoard})</span>
                 </div>
-                <h3 className="font-serif text-2xl lg:text-3xl font-bold text-[#10152B]">
+                <h3 className="font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-[#10152B]">
                   {selectedPlayer.name}
                 </h3>
-                <p className="text-xs text-[#6B7280] mt-0.5">
+                <p className="text-[11px] sm:text-xs text-[#6B7280] mt-0.5">
                   {selectedPlayer.archetype} · Pool: {selectedPlayer.poolLabel}
                 </p>
               </div>
 
               <button
                 onClick={() => setSelectedPlayer(null)}
-                className="p-1.5 rounded-[2px] border border-[#E5E7EB] hover:bg-[#F5F4F7] text-[#4B5563]"
+                className="p-1.5 rounded-[2px] border border-[#E5E7EB] hover:bg-[#F5F4F7] text-[#4B5563] ml-2 flex-shrink-0"
               >
                 <X size={18} />
               </button>
             </div>
 
             {/* Core Metrics Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB] mb-6">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 p-3 sm:p-4 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB] mb-5 sm:mb-6">
               <div>
                 <div className="text-[10px] font-mono uppercase text-[#6B7280]">BRS Reliability</div>
-                <div className="font-serif text-2xl font-bold text-[#EA1D76]">{selectedPlayer.brsScore.toFixed(1)}</div>
+                <div className="font-serif text-xl sm:text-2xl font-bold text-[#EA1D76]">{selectedPlayer.brsScore.toFixed(1)}</div>
               </div>
               <div>
-                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Pressure Strike Rate</div>
-                <div className="font-mono text-xl font-bold text-[#10152B]">{selectedPlayer.pressSr.toFixed(1)}</div>
+                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Pressure SR</div>
+                <div className="font-mono text-lg sm:text-xl font-bold text-[#10152B]">{selectedPlayer.pressSr.toFixed(1)}</div>
               </div>
               <div>
-                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Pressure Average</div>
-                <div className="font-mono text-xl font-bold text-[#10152B]">{selectedPlayer.pressAvg.toFixed(1)}</div>
+                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Pressure Avg</div>
+                <div className="font-mono text-lg sm:text-xl font-bold text-[#10152B]">{selectedPlayer.pressAvg.toFixed(1)}</div>
               </div>
               <div>
-                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Clutch Delta (ΔSR)</div>
-                <div className={`font-mono text-xl font-bold ${selectedPlayer.deltaSr >= 0 ? 'text-emerald-700' : 'text-rose-700'}`}>
+                <div className="text-[10px] font-mono uppercase text-[#6B7280]">Clutch Delta</div>
+                <div className={`font-mono text-lg sm:text-xl font-bold ${selectedPlayer.deltaSr >= 0 ? 'text-emerald-700' : 'text-rose-700'}`}>
                   {selectedPlayer.deltaSr >= 0 ? `+${selectedPlayer.deltaSr.toFixed(1)}` : selectedPlayer.deltaSr.toFixed(1)}
                 </div>
               </div>
             </div>
 
             {/* Auction Availability & Franchise Status */}
-            <div className={`p-4 rounded-[2px] border mb-6 ${
+            <div className={`p-3 sm:p-4 rounded-[2px] border mb-5 sm:mb-6 ${
               selectedPlayer.isRRAcquisitionTarget
                 ? 'bg-emerald-50 border-emerald-200'
                 : 'bg-amber-50 border-amber-200'
             }`}>
-              <div className="flex items-center justify-between mb-1.5">
+              <div className="flex flex-wrap items-center justify-between gap-1.5 mb-1.5">
                 <div className="text-xs font-mono font-bold uppercase tracking-wider text-[#10152B]">
                   AUCTION AVAILABILITY & FEASIBILITY AUDIT
                 </div>
@@ -364,13 +370,13 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
                 </div>
               )}
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-2 border-t border-[#E5E7EB]/60">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-xs pt-2 border-t border-[#E5E7EB]/60">
                 <div>
                   <span className="text-[#6B7280]">Contract Status: </span>
                   <span className="font-semibold text-[#10152B]">{selectedPlayer.contractDetails}</span>
                 </div>
                 <div>
-                  <span className="text-[#6B7280]">Estimated Auction Price: </span>
+                  <span className="text-[#6B7280]">Estimated Price: </span>
                   <span className="font-semibold text-[#10152B]">{selectedPlayer.estimatedPriceRange || 'N/A'}</span>
                 </div>
               </div>
@@ -378,15 +384,15 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
 
             {/* Innings Trajectory Breakdown */}
             {selectedPlayer.dna?.trajectory && selectedPlayer.dna.trajectory.length > 0 && (
-              <div className="mb-6">
+              <div className="mb-5 sm:mb-6">
                 <div className="text-xs font-mono font-bold uppercase text-[#6B7280] mb-3">
                   INNINGS TRAJECTORY ACCELERATION (BALLS 1 TO 31+)
                 </div>
-                <div className="grid grid-cols-4 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
                   {selectedPlayer.dna.trajectory.map((t) => (
-                    <div key={t.bracket} className="p-3 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB] text-center">
+                    <div key={t.bracket} className="p-2.5 sm:p-3 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB] text-center">
                       <div className="text-[10px] font-mono text-[#6B7280]">{t.bracket} Balls</div>
-                      <div className="font-mono text-base font-bold text-[#10152B] mt-1">{t.sr.toFixed(1)} <span className="text-[10px] text-[#6B7280]">SR</span></div>
+                      <div className="font-mono text-sm sm:text-base font-bold text-[#10152B] mt-0.5">{t.sr.toFixed(1)} <span className="text-[10px] text-[#6B7280]">SR</span></div>
                       <div className="text-[10px] text-[#6B7280]">{t.runs}r / {t.balls}b</div>
                     </div>
                   ))}
@@ -396,16 +402,16 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
 
             {/* Pace vs Spin Splits */}
             {selectedPlayer.dna?.paceVsSpin && (
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="p-3.5 rounded-[2px] bg-white border border-[#E5E7EB]">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-5 sm:mb-6">
+                <div className="p-3 sm:p-3.5 rounded-[2px] bg-white border border-[#E5E7EB]">
                   <div className="text-[10px] font-mono uppercase text-[#6B7280]">Versus Pace Bowling</div>
-                  <div className="font-mono text-lg font-bold text-[#10152B] mt-1">
+                  <div className="font-mono text-base sm:text-lg font-bold text-[#10152B] mt-1">
                     {selectedPlayer.dna.paceVsSpin.paceSr.toFixed(1)} <span className="text-xs font-normal text-[#6B7280]">SR ({selectedPlayer.dna.paceVsSpin.paceBalls} balls)</span>
                   </div>
                 </div>
-                <div className="p-3.5 rounded-[2px] bg-white border border-[#E5E7EB]">
+                <div className="p-3 sm:p-3.5 rounded-[2px] bg-white border border-[#E5E7EB]">
                   <div className="text-[10px] font-mono uppercase text-[#6B7280]">Versus Spin Bowling</div>
-                  <div className="font-mono text-lg font-bold text-[#10152B] mt-1">
+                  <div className="font-mono text-base sm:text-lg font-bold text-[#10152B] mt-1">
                     {selectedPlayer.dna.paceVsSpin.spinSr.toFixed(1)} <span className="text-xs font-normal text-[#6B7280]">SR ({selectedPlayer.dna.paceVsSpin.spinBalls} balls)</span>
                   </div>
                 </div>
@@ -413,7 +419,7 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
             )}
 
             {/* RR Tactical Recommendation */}
-            <div className="p-4 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB]">
+            <div className="p-3 sm:p-4 rounded-[2px] bg-[#F5F4F7] border border-[#E5E7EB]">
               <div className="text-xs font-mono font-bold uppercase text-[#10152B] mb-1">
                 RAJASTHAN ROYALS TACTICAL RECOMMENDATION
               </div>
@@ -423,10 +429,10 @@ export default function TopBattersSection({ batters }: TopBattersSectionProps) {
             </div>
 
             {/* Close Button */}
-            <div className="mt-6 flex justify-end">
+            <div className="mt-5 sm:mt-6 flex justify-end">
               <button
                 onClick={() => setSelectedPlayer(null)}
-                className="px-5 py-2 bg-[#10152B] text-white text-xs font-mono font-semibold rounded-[2px]"
+                className="w-full sm:w-auto px-5 py-2.5 bg-[#10152B] text-white text-xs font-mono font-semibold rounded-[2px]"
               >
                 Close Dossier
               </button>

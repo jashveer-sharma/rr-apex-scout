@@ -142,19 +142,19 @@ export default function HeadToHeadComparison() {
   const [playerB, setPlayerB] = useState<PlayerLite>(playerPool[1]);
 
   return (
-    <section id="compare" className="py-24 border-t border-rr-border bg-white text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="compare" className="py-16 sm:py-24 border-t border-rr-border bg-white text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         {/* Section Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 07 / HEAD-TO-HEAD LAB
           </span>
         </div>
 
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               PLAYER COMPARISON & <span className="text-rr-pink">DELTAS</span>
             </h2>
           </div>
@@ -165,29 +165,29 @@ export default function HeadToHeadComparison() {
         </div>
 
         {/* Quick Selector Presets */}
-        <div className="flex flex-wrap items-center gap-2 mb-8">
-          <span className="text-xs font-mono text-slate-500 mr-2 uppercase">Curated Matchups:</span>
+        <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-6 sm:mb-8">
+          <span className="text-xs font-mono text-slate-500 mr-1 sm:mr-2 uppercase">Curated Matchups:</span>
           <button
             onClick={() => { setPlayerA(playerPool[0]); setPlayerB(playerPool[1]); }}
-            className="px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
+            className="px-2.5 sm:px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
           >
             Suryakumar vs Naman Dhir
           </button>
           <button
             onClick={() => { setPlayerA(playerPool[1]); setPlayerB(playerPool[2]); }}
-            className="px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
+            className="px-2.5 sm:px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
           >
             Naman Dhir vs Shashank Singh
           </button>
           <button
             onClick={() => { setPlayerA(playerPool[5]); setPlayerB(playerPool[6]); }}
-            className="px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
+            className="px-2.5 sm:px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
           >
             Umran Malik vs Sunil Narine
           </button>
           <button
             onClick={() => { setPlayerA(playerPool[6]); setPlayerB(playerPool[7]); }}
-            className="px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
+            className="px-2.5 sm:px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold bg-rr-offwhite border border-rr-border hover:border-rr-pink hover:text-rr-pink text-slate-700 transition-all"
           >
             Sunil Narine vs Mitchell Santner
           </button>
@@ -201,9 +201,9 @@ export default function HeadToHeadComparison() {
           </div>
 
           {/* Player A Card */}
-          <div className="p-6 sm:p-8 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-6">
+          <div className="p-4 sm:p-8 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-4 sm:space-y-6">
             <div className="flex justify-between items-start pb-4 border-b border-rr-border">
-              <div className="w-full max-w-[70%]">
+              <div className="w-full max-w-[65%] sm:max-w-[70%]">
                 <span className="text-[10px] font-mono font-bold text-rr-pink uppercase tracking-widest block mb-1">
                   SELECTION A
                 </span>
@@ -213,7 +213,7 @@ export default function HeadToHeadComparison() {
                     const found = playerPool.find(p => p.name === e.target.value);
                     if (found) setPlayerA(found);
                   }}
-                  className="w-full bg-white border border-rr-border rounded-[2px] text-sm font-bold text-rr-navy px-3 py-2 focus:outline-none focus:border-rr-pink"
+                  className="w-full bg-white border border-rr-border rounded-[2px] text-xs sm:text-sm font-bold text-rr-navy px-2.5 sm:px-3 py-2 focus:outline-none focus:border-rr-pink"
                 >
                   {playerPool.map(p => (
                     <option key={p.name} value={p.name}>{p.name} ({p.type})</option>
@@ -222,36 +222,36 @@ export default function HeadToHeadComparison() {
               </div>
               <div className="text-right">
                 <span className="text-[10px] font-mono text-slate-500 uppercase block">BRS SCORE</span>
-                <div className="text-2xl font-black text-rr-navy font-mono">{playerA.brsScore.toFixed(1)}</div>
+                <div className="text-xl sm:text-2xl font-black text-rr-navy font-mono">{playerA.brsScore.toFixed(1)}</div>
               </div>
             </div>
 
             <p className="text-xs text-slate-600 font-mono">{playerA.archetype}</p>
 
-            <div className="space-y-3 font-mono text-xs">
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+            <div className="space-y-2.5 sm:space-y-3 font-mono text-xs">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerA.metric1Label}</span>
-                <span className="text-base font-bold text-rr-navy">{playerA.metric1Val}</span>
+                <span className="text-sm sm:text-base font-bold text-rr-navy">{playerA.metric1Val}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerA.metric2Label}</span>
-                <span className="text-base font-bold text-rr-navy">{playerA.metric2Val}</span>
+                <span className="text-sm sm:text-base font-bold text-rr-navy">{playerA.metric2Val}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerA.deltaLabel}</span>
-                <span className="text-base font-bold text-emerald-700">+{playerA.deltaVal.toFixed(1)}</span>
+                <span className="text-sm sm:text-base font-bold text-emerald-700">+{playerA.deltaVal.toFixed(1)}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">Dot Ball Frequency</span>
-                <span className="text-base font-bold text-rr-pink">{playerA.dotPct}%</span>
+                <span className="text-sm sm:text-base font-bold text-rr-pink">{playerA.dotPct}%</span>
               </div>
             </div>
           </div>
 
           {/* Player B Card */}
-          <div className="p-6 sm:p-8 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-6">
+          <div className="p-4 sm:p-8 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-4 sm:space-y-6">
             <div className="flex justify-between items-start pb-4 border-b border-rr-border">
-              <div className="w-full max-w-[70%]">
+              <div className="w-full max-w-[65%] sm:max-w-[70%]">
                 <span className="text-[10px] font-mono font-bold text-slate-600 uppercase tracking-widest block mb-1">
                   SELECTION B
                 </span>
@@ -261,7 +261,7 @@ export default function HeadToHeadComparison() {
                     const found = playerPool.find(p => p.name === e.target.value);
                     if (found) setPlayerB(found);
                   }}
-                  className="w-full bg-white border border-rr-border rounded-[2px] text-sm font-bold text-rr-navy px-3 py-2 focus:outline-none focus:border-rr-pink"
+                  className="w-full bg-white border border-rr-border rounded-[2px] text-xs sm:text-sm font-bold text-rr-navy px-2.5 sm:px-3 py-2 focus:outline-none focus:border-rr-pink"
                 >
                   {playerPool.map(p => (
                     <option key={p.name} value={p.name}>{p.name} ({p.type})</option>
@@ -270,28 +270,28 @@ export default function HeadToHeadComparison() {
               </div>
               <div className="text-right">
                 <span className="text-[10px] font-mono text-slate-500 uppercase block">BRS SCORE</span>
-                <div className="text-2xl font-black text-rr-navy font-mono">{playerB.brsScore.toFixed(1)}</div>
+                <div className="text-xl sm:text-2xl font-black text-rr-navy font-mono">{playerB.brsScore.toFixed(1)}</div>
               </div>
             </div>
 
             <p className="text-xs text-slate-600 font-mono">{playerB.archetype}</p>
 
-            <div className="space-y-3 font-mono text-xs">
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+            <div className="space-y-2.5 sm:space-y-3 font-mono text-xs">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerB.metric1Label}</span>
-                <span className="text-base font-bold text-rr-navy">{playerB.metric1Val}</span>
+                <span className="text-sm sm:text-base font-bold text-rr-navy">{playerB.metric1Val}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerB.metric2Label}</span>
-                <span className="text-base font-bold text-rr-navy">{playerB.metric2Val}</span>
+                <span className="text-sm sm:text-base font-bold text-rr-navy">{playerB.metric2Val}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">{playerB.deltaLabel}</span>
-                <span className="text-base font-bold text-emerald-700">+{playerB.deltaVal.toFixed(1)}</span>
+                <span className="text-sm sm:text-base font-bold text-emerald-700">+{playerB.deltaVal.toFixed(1)}</span>
               </div>
-              <div className="p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
+              <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border flex justify-between items-center">
                 <span className="text-slate-600">Dot Ball Frequency</span>
-                <span className="text-base font-bold text-rr-pink">{playerB.dotPct}%</span>
+                <span className="text-sm sm:text-base font-bold text-rr-pink">{playerB.dotPct}%</span>
               </div>
             </div>
           </div>

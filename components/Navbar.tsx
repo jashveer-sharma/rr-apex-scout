@@ -144,7 +144,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className="inline-flex items-center gap-2.5 px-4 py-2 rounded-[2px] bg-[#10152B] hover:bg-[#EA1D76] text-white text-xs font-mono font-medium tracking-wider uppercase transition-colors"
+              className="inline-flex items-center justify-center gap-2.5 px-4 min-h-[44px] rounded-[2px] bg-[#10152B] hover:bg-[#EA1D76] text-white text-xs font-mono font-medium tracking-wider uppercase transition-colors"
               aria-label="Toggle Navigation Menu"
             >
               <span>{menuOpen ? 'CLOSE' : 'MENU'}</span>
@@ -156,12 +156,12 @@ export default function Navbar() {
 
       {/* ── Fullscreen Editorial Navigation Overlay (EterPay / Baztan Style) ── */}
       <div
-        className={`fixed inset-0 z-50 bg-[#10152B] text-white transition-opacity duration-300 flex flex-col justify-between p-8 lg:p-14 ${
+        className={`fixed inset-0 z-50 bg-[#10152B] text-white transition-opacity duration-300 flex flex-col justify-between p-4 sm:p-8 lg:p-14 ${
           menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
         {/* Overlay Top Bar */}
-        <div className="flex items-center justify-between pb-6 border-b border-white/10">
+        <div className="flex items-center justify-between pb-4 sm:pb-6 border-b border-white/10">
           <div className="flex items-center gap-3">
             <div className="w-7 h-7 rounded-[2px] bg-[#EA1D76] flex items-center justify-center text-white font-bold text-xs">
               RR
@@ -173,7 +173,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setMenuOpen(false)}
-            className="flex items-center gap-2 px-3 py-1.5 rounded-[2px] border border-white/20 hover:border-[#EA1D76] text-xs font-mono tracking-wider transition-colors"
+            className="flex items-center gap-2 px-3.5 py-2 min-h-[44px] rounded-[2px] border border-white/20 hover:border-[#EA1D76] text-xs font-mono tracking-wider transition-colors"
           >
             <X size={14} />
             <span>CLOSE (ESC)</span>
@@ -181,40 +181,48 @@ export default function Navbar() {
         </div>
 
         {/* Chapters Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-4 my-auto py-6 max-h-[72vh] overflow-y-auto">
-          {NAV_CHAPTERS.map((ch) => (
-            <button
-              key={ch.num}
-              onClick={() => handleNavClick(ch.href)}
-              className="group text-left p-3.5 border-b border-white/5 hover:border-[#EA1D76] transition-colors block w-full"
-            >
-              <div className="flex items-baseline gap-3">
-                <span className="font-mono text-xs text-[#EA1D76] group-hover:text-white transition-colors">
-                  {ch.num}
-                </span>
-                <span className="font-serif text-base lg:text-lg font-bold text-white group-hover:text-[#EA1D76] transition-colors">
-                  {ch.title}
-                </span>
-              </div>
-              <p className="text-[11px] text-[#A5A9B8] mt-1 line-clamp-1 group-hover:text-white/80 transition-colors pl-7">
-                {ch.desc}
-              </p>
-            </button>
-          ))}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 sm:gap-x-12 gap-y-2 sm:gap-y-4 my-auto py-4 sm:py-6 max-h-[75vh] overflow-y-auto">
+          {NAV_CHAPTERS.map((ch) => {
+            const isActive = activeSection === ch.href.replace('#', '');
+            return (
+              <button
+                key={ch.num}
+                onClick={() => handleNavClick(ch.href)}
+                className={`group text-left p-3 sm:p-3.5 border-b min-h-[48px] transition-colors block w-full ${
+                  isActive ? 'border-[#EA1D76] bg-white/[0.03]' : 'border-white/5 hover:border-[#EA1D76]'
+                }`}
+              >
+                <div className="flex items-baseline gap-3">
+                  <span className={`font-mono text-xs transition-colors ${isActive ? 'text-white font-bold' : 'text-[#EA1D76] group-hover:text-white'}`}>
+                    {ch.num}
+                  </span>
+                  <span className={`font-serif text-base lg:text-lg font-bold transition-colors ${isActive ? 'text-[#EA1D76]' : 'text-white group-hover:text-[#EA1D76]'}`}>
+                    {ch.title}
+                  </span>
+                  {isActive && (
+                    <span className="text-[10px] font-mono text-[#EA1D76] uppercase tracking-wider ml-auto">Active</span>
+                  )}
+                </div>
+                <p className="text-[11px] text-[#A5A9B8] mt-1 line-clamp-1 group-hover:text-white/80 transition-colors pl-7">
+                  {ch.desc}
+                </p>
+              </button>
+            );
+          })}
         </div>
 
         {/* Overlay Bottom Status */}
-        <div className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-mono text-[#A5A9B8]">
-          <div className="flex items-center gap-4">
+        <div className="pt-4 sm:pt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs font-mono text-[#A5A9B8]">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-4">
             <span className="flex items-center gap-1.5 text-white">
               <CheckCircle2 size={13} className="text-[#EA1D76]" />
               <span>100% BCCI/IPL Eligible Roster</span>
             </span>
-            <span>·</span>
-            <span>Mini-Auction: Dec 16, 2026 (Goa)</span>
+            <span className="hidden sm:inline">·</span>
+            <span>Mini-Auction: Dec 16, 2026</span>
           </div>
           <div className="text-[11px]">
-            Press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-white">Esc</kbd> to exit index
+            Press <kbd className="px-1.5 py-0.5 bg-white/10 rounded text-white">Esc</kbd> to exit
           </div>
         </div>
       </div>

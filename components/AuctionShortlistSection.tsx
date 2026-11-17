@@ -125,21 +125,21 @@ export default function AuctionShortlistSection() {
   });
 
   return (
-    <section id="auction-shortlist" className="py-24 border-t border-rr-border bg-white text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="auction-shortlist" className="py-16 sm:py-24 border-t border-rr-border bg-white text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Section Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 10 / AUCTION TARGET SHORTLIST & FEASIBILITY
           </span>
         </div>
 
         {/* Section Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               REALISTIC AUCTION TARGETS: <br />
               <span className="text-rr-pink">AUCTION OPPORTUNITY SCORE (AOS)</span>
             </h2>
@@ -152,25 +152,25 @@ export default function AuctionShortlistSection() {
         </div>
 
         {/* RR Squad Context & Mini-Auction Purse Strip */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 p-6 rounded-[2px] bg-rr-offwhite border border-rr-border mb-10 text-xs font-mono">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 p-4 sm:p-6 rounded-[2px] bg-rr-offwhite border border-rr-border mb-8 sm:mb-10 text-xs font-mono">
           <div className="p-3 bg-white border border-rr-border rounded-[2px]">
             <div className="text-slate-500 uppercase text-[10px]">Retained Core (6 Players)</div>
-            <div className="text-sm font-bold text-rr-navy mt-1">Samson, Jaiswal, Parag, Jurel, Hetmyer, Sandeep</div>
+            <div className="text-xs sm:text-sm font-bold text-rr-navy mt-1">Samson, Jaiswal, Parag, Jurel, Hetmyer, Sandeep</div>
             <div className="text-[10px] text-slate-400 mt-1">Committed: ₹79.00 Cr</div>
           </div>
           <div className="p-3 bg-white border border-rr-border rounded-[2px]">
-            <div className="text-slate-500 uppercase text-[10px]">Available Mini-Auction Purse</div>
-            <div className="text-lg font-black text-rr-pink mt-1">₹28.50 – ₹34.00 Cr</div>
+            <div className="text-slate-500 uppercase text-[10px]">Available Purse</div>
+            <div className="text-base sm:text-lg font-black text-rr-pink mt-1">₹28.50 – ₹34.00 Cr</div>
             <div className="text-[10px] text-slate-400 mt-1">From ₹120.00 Cr Base Cap</div>
           </div>
           <div className="p-3 bg-white border border-rr-border rounded-[2px]">
-            <div className="text-slate-500 uppercase text-[10px]">Overseas Slots Remaining</div>
-            <div className="text-lg font-black text-rr-navy mt-1">3 Slots Available</div>
+            <div className="text-slate-500 uppercase text-[10px]">Overseas Slots</div>
+            <div className="text-base sm:text-lg font-black text-rr-navy mt-1">3 Slots Available</div>
             <div className="text-[10px] text-slate-400 mt-1">Hetmyer locked as OS #1</div>
           </div>
           <div className="p-3 bg-white border border-rr-border rounded-[2px]">
             <div className="text-slate-500 uppercase text-[10px]">Scoring Model</div>
-            <div className="text-sm font-bold text-emerald-700 mt-1">AOS (Auction Opportunity)</div>
+            <div className="text-xs sm:text-sm font-bold text-emerald-700 mt-1">AOS (Auction Opportunity)</div>
             <div className="text-[10px] text-slate-400 mt-1">BRS + Gap Fill + Purse Feasibility</div>
           </div>
         </div>

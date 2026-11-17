@@ -19,21 +19,21 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
   const currentBowler = bowlers[activeBowlerIndex] || bowlers[0];
 
   return (
-    <section id="player-intelligence" className="py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="player-intelligence" className="py-16 sm:py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Section Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 06 / PLAYER BEHAVIOURAL DNA
           </span>
         </div>
 
         {/* Section Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-12 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               BEYOND SURFACE AVERAGES: <br />
               <span className="text-rr-pink">GRANULAR PLAYER MECHANISMS</span>
             </h2>
@@ -45,10 +45,10 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
         </div>
 
         {/* Role Selector Tabs */}
-        <div className="flex items-center gap-3 mb-8">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 mb-6 sm:mb-8">
           <button
             onClick={() => setSelectedRole('batter')}
-            className={`px-5 py-2.5 rounded-[2px] text-xs font-mono font-bold uppercase tracking-wider transition-all border ${
+            className={`px-4 sm:px-5 py-2.5 rounded-[2px] text-xs font-mono font-bold uppercase tracking-wider transition-all border text-center ${
               selectedRole === 'batter'
                 ? 'bg-rr-pink text-white border-rr-pink'
                 : 'bg-white text-slate-600 hover:text-rr-navy border-rr-border'
@@ -58,7 +58,7 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
           </button>
           <button
             onClick={() => setSelectedRole('bowler')}
-            className={`px-5 py-2.5 rounded-[2px] text-xs font-mono font-bold uppercase tracking-wider transition-all border ${
+            className={`px-4 sm:px-5 py-2.5 rounded-[2px] text-xs font-mono font-bold uppercase tracking-wider transition-all border text-center ${
               selectedRole === 'bowler'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white text-slate-600 hover:text-rr-navy border-rr-border'
@@ -117,7 +117,7 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
                   </div>
                   
                   {currentBatter.dna?.trajectory && (
-                    <div className="grid grid-cols-4 gap-2 text-center">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
                       {currentBatter.dna.trajectory.map((t: any) => (
                         <div key={t.bracket} className="p-2 rounded-[2px] bg-white border border-rr-border">
                           <div className="text-[9px] font-mono uppercase text-slate-500">Balls {t.bracket}</div>
@@ -162,7 +162,7 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
                   <h4 className="text-xs font-mono font-bold text-rr-navy uppercase tracking-wider mb-4">
                     Pace vs Spin Matchup Velocity
                   </h4>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                     <div className="p-4 rounded-[2px] bg-rr-offwhite border border-rr-border text-center">
                       <div className="text-[10px] font-mono text-slate-500 uppercase">Vs Pace Bowlers</div>
                       <div className="text-2xl font-black text-rr-navy font-mono mt-1">
@@ -331,7 +331,7 @@ export default function PlayerIntelligenceSection({ batters, bowlers }: PlayerIn
                   <h4 className="text-xs font-mono font-bold text-rr-navy uppercase tracking-wider mb-4">
                     Handedness Matchup Containment (RHB vs LHB)
                   </h4>
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
                     <div className="p-4 rounded-[2px] bg-rr-offwhite border border-rr-border text-center">
                       <div className="text-[10px] font-mono text-slate-500 uppercase">Vs Right-Hand Batters</div>
                       <div className="text-2xl font-black text-rr-navy font-mono mt-1">

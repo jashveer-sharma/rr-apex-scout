@@ -115,21 +115,21 @@ export default function SquadConstructionSection() {
   const currentScenario = scenarios.find(s => s.id === activeScenarioId) || scenarios[0];
 
   return (
-    <section id="squad-construction" className="py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="squad-construction" className="py-16 sm:py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Editorial Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 11 / COMPLETE RR SQUAD CONSTRUCTION (THREE SCENARIOS)
           </span>
         </div>
 
         {/* Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               THE RAJASTHAN ROYALS <br />
               <span className="text-rr-pink">IPL 2027 SQUAD SCENARIOS</span>
             </h2>
@@ -142,14 +142,14 @@ export default function SquadConstructionSection() {
         </div>
 
         {/* Scenario Selector Chips */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 mb-6 sm:mb-8">
           {scenarios.map((scen) => {
             const isActive = scen.id === activeScenarioId;
             return (
               <button
                 key={scen.id}
                 onClick={() => setActiveScenarioId(scen.id)}
-                className={`p-5 rounded-[2px] text-left transition-all border ${
+                className={`p-4 sm:p-5 rounded-[2px] text-left transition-all border ${
                   isActive
                     ? 'bg-white border-rr-pink shadow-md'
                     : 'bg-white border-rr-border hover:border-slate-400'
@@ -163,7 +163,7 @@ export default function SquadConstructionSection() {
                   </span>
                   <span className="text-xs font-mono text-slate-500 font-bold">{scen.roleCoverageScore}</span>
                 </div>
-                <div className="text-base font-extrabold text-rr-navy font-display">{scen.name}</div>
+                <div className="text-sm sm:text-base font-extrabold text-rr-navy font-display">{scen.name}</div>
                 <div className="text-xs font-mono text-slate-500 mt-1">
                   Spend: <span className="font-bold text-rr-navy">{scen.estimatedAuctionSpend}</span> · Rem: <span className="font-bold text-emerald-700">{scen.remainingPurse.split(' ')[0]}</span>
                 </div>
@@ -173,15 +173,15 @@ export default function SquadConstructionSection() {
         </div>
 
         {/* Active Scenario Overview Banner */}
-        <div className="p-6 bg-white border border-rr-border rounded-[2px] shadow-sm mb-6 space-y-3">
+        <div className="p-4 sm:p-6 bg-white border border-rr-border rounded-[2px] shadow-sm mb-6 space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-rr-border">
             <div>
               <span className="text-[10px] font-mono font-bold text-rr-pink uppercase tracking-widest">
                 ACTIVE BLUEPRINT: {currentScenario.tag}
               </span>
-              <h3 className="text-xl font-black text-rr-navy font-display mt-0.5">{currentScenario.name}</h3>
+              <h3 className="text-lg sm:text-xl font-black text-rr-navy font-display mt-0.5">{currentScenario.name}</h3>
             </div>
-            <div className="flex items-center gap-3 text-xs font-mono">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-xs font-mono">
               <span className="px-2.5 py-1 bg-rr-offwhite border border-rr-border rounded-[2px]">
                 Overseas: <b>{currentScenario.overseasInXI} in XI</b> / {currentScenario.overseasInSquad} in Squad
               </span>
@@ -196,10 +196,10 @@ export default function SquadConstructionSection() {
         </div>
 
         {/* Tab Switcher */}
-        <div className="flex items-center gap-2 mb-6">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 mb-6">
           <button
             onClick={() => setActiveTab('xi')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'xi'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -209,7 +209,7 @@ export default function SquadConstructionSection() {
           </button>
           <button
             onClick={() => setActiveTab('purse')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'purse'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -219,7 +219,7 @@ export default function SquadConstructionSection() {
           </button>
           <button
             onClick={() => setActiveTab('jaipur')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'jaipur'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -232,8 +232,12 @@ export default function SquadConstructionSection() {
         {/* TAB 1: PLAYING XI TABLE */}
         {activeTab === 'xi' && (
           <div className="space-y-4">
-            <div className="bg-white border border-rr-border rounded-[2px] shadow-sm overflow-x-auto">
-              <table className="w-full text-left border-collapse font-mono text-xs">
+            <div className="sm:hidden text-[10px] font-mono text-[#6B7280] mb-2 flex items-center justify-between">
+              <span>← Scroll table horizontally →</span>
+              <span className="text-rr-pink">Impact marked (Sub)</span>
+            </div>
+            <div className="bg-white border border-rr-border rounded-[2px] shadow-sm overflow-x-auto -mx-4 sm:mx-0">
+              <table className="w-full text-left border-collapse font-mono text-xs min-w-[680px]">
                 <thead>
                   <tr className="bg-rr-offwhite border-b border-rr-border text-slate-500 uppercase text-[10px]">
                     <th className="py-3 px-4">#</th>

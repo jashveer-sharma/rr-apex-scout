@@ -5,20 +5,20 @@ import { Download, FileText, Presentation, CheckCircle, ShieldCheck, ArrowUpRigh
 
 export default function ReportDownloadSection() {
   return (
-    <section id="report" className="py-24 border-t border-rr-border bg-white text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="report" className="py-16 sm:py-24 border-t border-rr-border bg-white text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Editorial Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 14 / DELIVERABLES & UNSTOP SUBMISSION
           </span>
         </div>
 
-        <div className="p-8 sm:p-12 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-8">
+        <div className="p-4 sm:p-8 lg:p-12 rounded-[2px] bg-rr-offwhite border border-rr-border space-y-6 sm:space-y-8">
           <div className="max-w-3xl">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display mb-4">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display mb-3 sm:mb-4 leading-[1.05]">
               DOWNLOAD METHODOLOGY <br />
               <span className="text-rr-pink">WHITEPAPER & SLIDE DECK</span>
             </h2>
@@ -30,11 +30,11 @@ export default function ReportDownloadSection() {
           </div>
 
           {/* Download Buttons */}
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
             <a
               href="/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf"
               download
-              className="inline-flex items-center gap-3 px-6 py-3.5 rounded-[2px] bg-rr-pink hover:bg-rr-pinkLight text-white font-bold text-xs font-mono transition-all uppercase tracking-wider"
+              className="inline-flex items-center justify-center gap-3 px-5 sm:px-6 py-3.5 rounded-[2px] bg-rr-pink hover:bg-rr-pinkLight text-white font-bold text-xs font-mono transition-all uppercase tracking-wider text-center"
             >
               <FileText className="w-4 h-4 flex-shrink-0" />
               <span>Download Official Methodology Whitepaper (.pdf)</span>
@@ -43,7 +43,7 @@ export default function ReportDownloadSection() {
             <a
               href="/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx"
               download
-              className="inline-flex items-center gap-3 px-6 py-3.5 rounded-[2px] bg-white border border-rr-navy hover:bg-rr-navy hover:text-white text-rr-navy font-bold text-xs font-mono transition-all uppercase tracking-wider"
+              className="inline-flex items-center justify-center gap-3 px-5 sm:px-6 py-3.5 rounded-[2px] bg-white border border-rr-navy hover:bg-rr-navy hover:text-white text-rr-navy font-bold text-xs font-mono transition-all uppercase tracking-wider text-center"
             >
               <Presentation className="w-4 h-4 flex-shrink-0" />
               <span>Download Presentation Deck (.pptx)</span>

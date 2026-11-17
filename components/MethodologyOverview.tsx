@@ -28,37 +28,37 @@ export default function MethodologyOverview() {
   const currentTier = getTier(parseFloat(livePI));
 
   return (
-    <section id="pressure-index" className="py-28 border-b border-[#E5E7EB] bg-[#F5F4F7]">
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-12">
+    <section id="pressure-index" className="py-16 sm:py-28 border-b border-[#E5E7EB] bg-[#F5F4F7]">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Section Eyebrow & Rule */}
-        <div className="w-full h-px bg-[#E5E7EB] mb-12" />
+        <div className="w-full h-px bg-[#E5E7EB] mb-8 sm:mb-12" />
         <div className="flex items-center gap-3 mb-5">
           <span className="w-6 h-px bg-[#EA1D76]" />
-          <span className="text-[11px] font-mono font-semibold tracking-[0.18em] uppercase text-[#EA1D76]">
+          <span className="text-[10px] sm:text-[11px] font-mono font-semibold tracking-[0.18em] uppercase text-[#EA1D76]">
             CHAPTER 02 / PRESSURE INTELLIGENCE
           </span>
         </div>
 
         {/* Section Header */}
-        <div className="grid lg:grid-cols-12 gap-8 items-end mb-16">
+        <div className="grid lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-12 sm:mb-16">
           <div className="lg:col-span-8">
             <h2
               className="font-serif font-normal text-[#10152B] tracking-tight"
-              style={{ fontSize: 'clamp(2.25rem, 4.5vw, 3.75rem)', lineHeight: '1.1' }}
+              style={{ fontSize: 'clamp(1.75rem, 4vw, 3.75rem)', lineHeight: '1.1' }}
             >
               The Situational Leverage Index (SLI)
             </h2>
           </div>
           <div className="lg:col-span-4">
-            <p className="text-sm text-[#4B5563] leading-relaxed">
+            <p className="text-xs sm:text-sm text-[#4B5563] leading-relaxed">
               Pressure is not a subjective label applied to death overs. It is an instantaneous rate of change of win probability computed ball-by-ball.
             </p>
           </div>
         </div>
 
         {/* 2-Column Clean Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start">
           
           {/* Left Column: The 4 Mathematical Levers */}
           <div className="lg:col-span-7 space-y-4">
@@ -66,9 +66,9 @@ export default function MethodologyOverview() {
               THE FOUR PRESSURE MULTIPLIERS
             </div>
 
-            <div className="bg-white border border-[#E5E7EB] p-5 rounded-[2px]">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-serif text-base text-[#10152B] font-medium">1. Run Rate Differential (ΔRR)</span>
+            <div className="bg-white border border-[#E5E7EB] p-4 sm:p-5 rounded-[2px]">
+              <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                <span className="font-serif text-sm sm:text-base text-[#10152B] font-medium">1. Run Rate Differential (ΔRR)</span>
                 <span className="text-xs font-mono text-[#EA1D76] font-semibold">Weight: 35%</span>
               </div>
               <p className="text-xs text-[#6B7280] leading-relaxed">
@@ -76,9 +76,9 @@ export default function MethodologyOverview() {
               </p>
             </div>
 
-            <div className="bg-white border border-[#E5E7EB] p-5 rounded-[2px]">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-serif text-base text-[#10152B] font-medium">2. Resource Depletion Ratio (Wickets in Hand)</span>
+            <div className="bg-white border border-[#E5E7EB] p-4 sm:p-5 rounded-[2px]">
+              <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                <span className="font-serif text-sm sm:text-base text-[#10152B] font-medium">2. Resource Depletion Ratio (Wickets in Hand)</span>
                 <span className="text-xs font-mono text-[#EA1D76] font-semibold">Weight: 30%</span>
               </div>
               <p className="text-xs text-[#6B7280] leading-relaxed">
@@ -86,9 +86,9 @@ export default function MethodologyOverview() {
               </p>
             </div>
 
-            <div className="bg-white border border-[#E5E7EB] p-5 rounded-[2px]">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-serif text-base text-[#10152B] font-medium">3. Phase Progression Decay (120 - Balls Remaining)</span>
+            <div className="bg-white border border-[#E5E7EB] p-4 sm:p-5 rounded-[2px]">
+              <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                <span className="font-serif text-sm sm:text-base text-[#10152B] font-medium">3. Phase Progression Decay (120 - Balls Remaining)</span>
                 <span className="text-xs font-mono text-[#EA1D76] font-semibold">Weight: 20%</span>
               </div>
               <p className="text-xs text-[#6B7280] leading-relaxed">
@@ -96,9 +96,9 @@ export default function MethodologyOverview() {
               </p>
             </div>
 
-            <div className="bg-white border border-[#E5E7EB] p-5 rounded-[2px]">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-serif text-base text-[#10152B] font-medium">4. Tournament Stakes Multiplier</span>
+            <div className="bg-white border border-[#E5E7EB] p-4 sm:p-5 rounded-[2px]">
+              <div className="flex flex-wrap items-center justify-between gap-1 mb-1.5">
+                <span className="font-serif text-sm sm:text-base text-[#10152B] font-medium">4. Tournament Stakes Multiplier</span>
                 <span className="text-xs font-mono text-[#D6B36A] font-semibold">Scale: 1.00× – 1.25×</span>
               </div>
               <p className="text-xs text-[#6B7280] leading-relaxed">
@@ -108,7 +108,7 @@ export default function MethodologyOverview() {
           </div>
 
           {/* Right Column: Live Interactive SLI Calculator */}
-          <div className="lg:col-span-5 bg-white border border-[#E5E7EB] p-7 rounded-[2px] shadow-sm">
+          <div className="lg:col-span-5 bg-white border border-[#E5E7EB] p-5 sm:p-7 rounded-[2px] shadow-sm">
             <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#E5E7EB]">
               <div className="flex items-center gap-2">
                 <Calculator size={15} className="text-[#EA1D76]" />
@@ -120,16 +120,16 @@ export default function MethodologyOverview() {
             </div>
 
             {/* Calculated Output Display */}
-            <div className={`p-5 rounded-[2px] border ${currentTier.border} ${currentTier.bg} mb-6 flex items-center justify-between`}>
+            <div className={`p-4 sm:p-5 rounded-[2px] border ${currentTier.border} ${currentTier.bg} mb-6 flex flex-col sm:flex-row sm:items-center justify-between gap-3`}>
               <div>
                 <div className="text-[10px] font-mono uppercase tracking-wider text-[#6B7280]">
                   COMPUTED PRESSURE INDEX (1.0 – 10.0)
                 </div>
-                <div className={`font-serif text-4xl font-normal mt-1 ${currentTier.color}`}>
+                <div className={`font-serif text-3xl sm:text-4xl font-normal mt-1 ${currentTier.color}`}>
                   {livePI} <span className="text-sm font-sans text-[#6B7280]">/ 10.0</span>
                 </div>
               </div>
-              <div className="text-right">
+              <div className="text-left sm:text-right">
                 <span className={`inline-block px-2.5 py-1 text-xs font-mono font-semibold rounded-[2px] bg-white border ${currentTier.border} ${currentTier.color}`}>
                   {currentTier.name}
                 </span>

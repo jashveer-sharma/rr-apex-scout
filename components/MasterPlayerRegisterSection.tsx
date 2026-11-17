@@ -71,21 +71,21 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
   }, [players, categoryFilter, roleFilter, searchTerm]);
 
   return (
-    <section id="master-register" className="py-24 border-t border-rr-border bg-white text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="master-register" className="py-16 sm:py-24 border-t border-rr-border bg-white text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Editorial Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 05 / MASTER PLAYER-SELECTION REGISTER
           </span>
         </div>
 
         {/* Title & Description */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6 pb-6 border-b border-rr-border">
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 sm:mb-10 gap-4 sm:gap-6 pb-6 border-b border-rr-border">
           <div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               COMPLETE PLAYER UNIVERSE & <br />
               <span className="text-rr-pink">SELECTION AUDIT REGISTER</span>
             </h2>
@@ -97,41 +97,41 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
         </div>
 
         {/* Dataset Completeness & Audit Metrics Strip */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8 text-xs font-mono">
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3 mb-6 sm:mb-8 text-xs font-mono">
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
             <div className="text-[10px] text-slate-500 uppercase">Player Universe</div>
-            <div className="text-xl font-black text-rr-navy mt-0.5">{initialData?.totalUniquePlayers || 1217}</div>
+            <div className="text-lg sm:text-xl font-black text-rr-navy mt-0.5">{initialData?.totalUniquePlayers || 1217}</div>
             <div className="text-[9px] text-slate-400">Total Unique Players</div>
           </div>
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
             <div className="text-[10px] text-slate-500 uppercase">100% Eligible Pool</div>
-            <div className="text-xl font-black text-emerald-700 mt-0.5">{initialData?.eligiblePlayersCount || 1149}</div>
+            <div className="text-lg sm:text-xl font-black text-emerald-700 mt-0.5">{initialData?.eligiblePlayersCount || 1149}</div>
             <div className="text-[9px] text-emerald-600 font-semibold">BCCI/IPL Verified</div>
           </div>
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
-            <div className="text-[10px] text-slate-500 uppercase">Internal Audit Excluded</div>
-            <div className="text-xl font-black text-slate-700 mt-0.5">{initialData?.excludedPlayersCount || 68}</div>
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+            <div className="text-[10px] text-slate-500 uppercase">Audit Excluded</div>
+            <div className="text-lg sm:text-xl font-black text-slate-700 mt-0.5">{initialData?.excludedPlayersCount || 68}</div>
             <div className="text-[9px] text-slate-400">PCB (Zero UI Exposure)</div>
           </div>
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
             <div className="text-[10px] text-slate-500 uppercase">Sufficient Sample</div>
-            <div className="text-xl font-black text-rr-navy mt-0.5">{initialData?.sufficientSampleCount || 184}</div>
+            <div className="text-lg sm:text-xl font-black text-rr-navy mt-0.5">{initialData?.sufficientSampleCount || 184}</div>
             <div className="text-[9px] text-slate-400">N ≥ 60 Pressure Balls</div>
           </div>
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
-            <div className="text-[10px] text-slate-500 uppercase">Bayes Shrunk Sample</div>
-            <div className="text-xl font-black text-slate-700 mt-0.5">{initialData?.insufficientSampleCount || 1033}</div>
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+            <div className="text-[10px] text-slate-500 uppercase">Bayes Shrunk</div>
+            <div className="text-lg sm:text-xl font-black text-slate-700 mt-0.5">{initialData?.insufficientSampleCount || 1033}</div>
             <div className="text-[9px] text-slate-400">N &lt; 60 Prior Stabilized</div>
           </div>
-          <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+          <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
             <div className="text-[10px] text-slate-500 uppercase">RR Target Shortlist</div>
-            <div className="text-xl font-black text-rr-pink mt-0.5">{initialData?.shortlistedCandidatesCount || 12}</div>
+            <div className="text-lg sm:text-xl font-black text-rr-pink mt-0.5">{initialData?.shortlistedCandidatesCount || 12}</div>
             <div className="text-[9px] text-rr-pink font-semibold">Actionable Candidates</div>
           </div>
         </div>
 
         {/* Filter & Search Bar */}
-        <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 p-4 rounded-[2px] bg-rr-offwhite border border-rr-border mb-6">
+        <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 sm:gap-4 p-3 sm:p-4 rounded-[2px] bg-rr-offwhite border border-rr-border mb-6">
           <div className="relative flex-1 max-w-md">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input
@@ -143,10 +143,10 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
             />
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
             <span className="text-xs font-mono text-slate-500 uppercase mr-1">Category:</span>
             {[
-              { id: 'ALL', label: 'All Players' },
+              { id: 'ALL', label: 'All' },
               { id: 'SHORTLIST', label: 'RR Shortlist' },
               { id: 'GEMS', label: 'Hidden Gems' },
               { id: 'TOP_PRESSURE', label: 'Top Pressure' },
@@ -155,7 +155,7 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
               <button
                 key={cat.id}
                 onClick={() => setCategoryFilter(cat.id)}
-                className={`px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold transition-all border ${
+                className={`px-2.5 sm:px-3 py-1.5 rounded-[2px] text-xs font-mono font-semibold transition-all border ${
                   categoryFilter === cat.id
                     ? 'bg-rr-navy text-white border-rr-navy'
                     : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -167,9 +167,15 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
           </div>
         </div>
 
+        {/* Mobile Horizontal Scroll Indicator */}
+        <div className="sm:hidden text-[10px] font-mono text-[#6B7280] mb-2 flex items-center justify-between">
+          <span>← Scroll table horizontally →</span>
+          <span className="text-rr-pink">Tap row for full audit</span>
+        </div>
+
         {/* Master Table */}
-        <div className="bg-white border border-rr-border rounded-[2px] overflow-x-auto shadow-sm">
-          <table className="w-full text-left border-collapse font-mono text-xs">
+        <div className="bg-white border border-rr-border rounded-[2px] overflow-x-auto shadow-sm -mx-4 sm:mx-0">
+          <table className="w-full text-left border-collapse font-mono text-xs min-w-[760px]">
             <thead>
               <tr className="bg-rr-offwhite border-b border-rr-border text-slate-500 uppercase text-[10px]">
                 <th className="py-3 px-4">#</th>
@@ -267,55 +273,55 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
 
         {/* Detailed Player Dossier Modal */}
         {selectedPlayer && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
-            <div className="bg-white border border-rr-border rounded-[2px] shadow-2xl max-w-2xl w-full p-6 sm:p-8 space-y-6 relative max-h-[90vh] overflow-y-auto">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
+            <div className="bg-white border border-rr-border rounded-[2px] shadow-2xl max-w-2xl w-full p-4 sm:p-6 space-y-4 sm:space-y-5 relative max-h-[92vh] overflow-y-auto">
               
               <button
                 onClick={() => setSelectedPlayer(null)}
-                className="absolute top-5 right-5 p-1.5 rounded-[2px] bg-rr-offwhite hover:bg-slate-200 text-slate-500 transition-colors"
+                className="absolute top-4 right-4 p-1.5 rounded-[2px] bg-rr-offwhite hover:bg-slate-200 text-slate-500 transition-colors"
               >
                 <X className="w-5 h-5" />
               </button>
 
-              <div>
-                <div className="flex items-center gap-2 mb-2">
+              <div className="pr-8">
+                <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5">
                   <span className="px-2 py-0.5 rounded-[2px] text-[10px] font-mono font-bold bg-pink-50 text-rr-pink border border-pink-200 uppercase">
                     ID #{selectedPlayer.playerId} · {selectedPlayer.classification}
                   </span>
                   <span className="text-xs font-mono text-slate-500">{selectedPlayer.nationality}</span>
                 </div>
-                <h3 className="text-2xl sm:text-3xl font-extrabold text-rr-navy font-display">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-rr-navy font-display">
                   {selectedPlayer.name}
                 </h3>
-                <div className="text-xs font-mono text-slate-500 mt-1">
+                <div className="text-[11px] sm:text-xs font-mono text-slate-500 mt-1">
                   {selectedPlayer.role} · Competitions: {selectedPlayer.competitions?.join(', ') || 'Domestic T20'}
                 </div>
               </div>
 
               {/* Core Metrics Grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 font-mono text-xs text-center">
-                <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 font-mono text-xs text-center">
+                <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
                   <div className="text-[10px] text-slate-500 uppercase">BRS Score</div>
-                  <div className="text-xl font-black text-rr-pink mt-1">{selectedPlayer.brsScore.toFixed(1)}</div>
+                  <div className="text-lg sm:text-xl font-black text-rr-pink mt-1">{selectedPlayer.brsScore.toFixed(1)}</div>
                 </div>
-                <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+                <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
                   <div className="text-[10px] text-slate-500 uppercase">Pressure Sample</div>
-                  <div className="text-xl font-black text-rr-navy mt-1">{selectedPlayer.highPressureDeliveries} b</div>
+                  <div className="text-lg sm:text-xl font-black text-rr-navy mt-1">{selectedPlayer.highPressureDeliveries} b</div>
                 </div>
-                <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+                <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
                   <div className="text-[10px] text-slate-500 uppercase">Pressure Output</div>
-                  <div className="text-base font-bold text-rr-navy mt-1">
+                  <div className="text-sm sm:text-base font-bold text-rr-navy mt-1">
                     {selectedPlayer.pressureSr ? `${selectedPlayer.pressureSr} SR` : selectedPlayer.pressureEcon ? `${selectedPlayer.pressureEcon} RPO` : '—'}
                   </div>
                 </div>
-                <div className="p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
+                <div className="p-2.5 sm:p-3 bg-rr-offwhite border border-rr-border rounded-[2px]">
                   <div className="text-[10px] text-slate-500 uppercase">Dot Ball Rate</div>
-                  <div className="text-base font-bold text-rr-navy mt-1">{selectedPlayer.dotPct ? `${selectedPlayer.dotPct}%` : '—'}</div>
+                  <div className="text-sm sm:text-base font-bold text-rr-navy mt-1">{selectedPlayer.dotPct ? `${selectedPlayer.dotPct}%` : '—'}</div>
                 </div>
               </div>
 
               {/* Status and Classification Details */}
-              <div className="p-4 bg-rr-offwhite border border-rr-border rounded-[2px] space-y-2 text-xs font-mono">
+              <div className="p-3 sm:p-4 bg-rr-offwhite border border-rr-border rounded-[2px] space-y-2 text-xs font-mono">
                 <div className="flex justify-between">
                   <span className="text-slate-500">BCCI Eligibility:</span>
                   <span className="font-bold text-emerald-700">{selectedPlayer.iplEligibilityStatus}</span>
@@ -347,7 +353,7 @@ export default function MasterPlayerRegisterSection({ initialData }: MasterRegis
               <div className="pt-2 border-t border-rr-border flex justify-end">
                 <button
                   onClick={() => setSelectedPlayer(null)}
-                  className="px-4 py-2 rounded-[2px] bg-rr-navy text-white text-xs font-mono font-bold uppercase tracking-wider"
+                  className="w-full sm:w-auto px-4 py-2.5 rounded-[2px] bg-rr-navy text-white text-xs font-mono font-bold uppercase tracking-wider"
                 >
                   Close Dossier
                 </button>

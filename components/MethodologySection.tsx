@@ -7,24 +7,24 @@ export default function MethodologySection() {
   const [activeTab, setActiveTab] = useState<'sli' | 'bayes' | 'robustness'>('sli');
 
   return (
-    <section id="methodology" className="py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="methodology" className="py-16 sm:py-24 border-t border-rr-border bg-rr-offwhite text-slate-800">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-12">
         
         {/* Editorial Chapter Header */}
         <div className="flex items-center gap-3 mb-4">
           <span className="w-8 h-[2px] bg-rr-pink" />
-          <span className="text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
+          <span className="text-[10px] sm:text-xs font-mono font-bold tracking-widest text-rr-pink uppercase">
             CHAPTER 13 / MATHEMATICAL METHODOLOGY & AUDIT
           </span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-12 pb-6 border-b border-rr-border">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-end mb-8 sm:mb-12 pb-6 border-b border-rr-border">
           <div className="lg:col-span-8">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-black text-rr-navy tracking-tight uppercase font-display leading-[1.05]">
               THE MATHEMATICS OF <br />
               <span className="text-rr-pink">CLUTCH TEMPERAMENT</span>
             </h2>
-            <p className="mt-4 text-xs sm:text-sm text-slate-600 leading-relaxed max-w-2xl font-normal">
+            <p className="mt-3 sm:mt-4 text-xs sm:text-sm text-slate-600 leading-relaxed max-w-2xl font-normal">
               Traditional analytics evaluate players on static aggregate averages. Our system calculates instantaneous 
               situational pressure for every delivery, applying Bayesian shrinkage to eliminate small-sample noise 
               and reveal true underlying performance distributions.
@@ -32,18 +32,18 @@ export default function MethodologySection() {
           </div>
 
           <div className="lg:col-span-4 flex lg:justify-end">
-            <div className="p-3 rounded-[2px] bg-white border border-rr-border text-xs font-mono text-slate-600 flex items-center gap-2 shadow-sm">
+            <div className="p-2.5 sm:p-3 rounded-[2px] bg-white border border-rr-border text-[11px] sm:text-xs font-mono text-slate-600 flex items-center gap-2 shadow-sm">
               <Database className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-              <span>200,999 Deliveries • 883 Matches • M₀ = 60 Shrinkage</span>
+              <span>200,999 Balls • 883 Matches • M₀ = 60 Shrinkage</span>
             </div>
           </div>
         </div>
 
         {/* Tab Selector */}
-        <div className="flex items-center gap-2 mb-8">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 mb-6 sm:mb-8">
           <button
             onClick={() => setActiveTab('sli')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'sli'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -53,7 +53,7 @@ export default function MethodologySection() {
           </button>
           <button
             onClick={() => setActiveTab('bayes')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'bayes'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -63,7 +63,7 @@ export default function MethodologySection() {
           </button>
           <button
             onClick={() => setActiveTab('robustness')}
-            className={`px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border ${
+            className={`px-3 sm:px-4 py-2 rounded-[2px] text-xs font-mono font-bold transition-all border text-center ${
               activeTab === 'robustness'
                 ? 'bg-rr-navy text-white border-rr-navy'
                 : 'bg-white border-rr-border text-slate-600 hover:text-rr-navy'
@@ -75,7 +75,7 @@ export default function MethodologySection() {
 
         {/* TAB 1: SLI */}
         {activeTab === 'sli' && (
-          <div className="p-6 sm:p-8 rounded-[2px] bg-white border border-rr-border shadow-sm space-y-6">
+          <div className="p-4 sm:p-8 rounded-[2px] bg-white border border-rr-border shadow-sm space-y-6">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
               <div className="lg:col-span-7 space-y-4">
                 <span className="px-2 py-0.5 rounded-[2px] text-[10px] font-mono font-bold bg-pink-50 text-rr-pink border border-pink-200 uppercase tracking-widest">
