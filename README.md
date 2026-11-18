@@ -3,7 +3,6 @@
 ### Official Entry · Unstop SupeRR Selector Season 2 (Round 1)
 
 > **Live Deployment:** [https://rrapexscout.netlify.app/](https://rrapexscout.netlify.app/)  
-> **Official Deliverables:** [Methodology Whitepaper PDF](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf) | [Executive Presentation PPTX](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx)  
 > **Target Event:** IPL 2027 Mini-Auction · December 16, 2026 (Goa)  
 > **Telemetry Scope:** 883 Matches | 200,999 Deliveries | 1,217 Player Universe | 100% BCCI/IPL Policy Compliant  
 
@@ -155,17 +154,6 @@ Before any mathematical modeling was executed, an automated regulatory audit eva
 * **1,149 Players Certified Eligible:** 100% compliant with BCCI and IPL player registration regulations.
 * **68 Policy-Restricted Players Audited:** Pursuant to standing BCCI policy in effect since 2009, all 68 PCB-registered cricketers were audited and excluded upstream. Zero policy-restricted records appear in any public ranking, table, comparison, or squad blueprint. An internal audit trail is preserved at `data/internal/audit_trail_excluded_records.json`.
 * **Overseas Cap:** Maximum 4 overseas players in the Playing XI strictly enforced across all 3 squad blueprints.
-
----
-
-## 10. Official Submission Deliverables
-
-| Deliverable | Format | Location | Strategic Purpose |
-| :--- | :---: | :--- | :--- |
-| **Methodology Whitepaper** | `.pdf` | [`/public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf`](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Methodology_Report.pdf) | 6-Page publication-grade whitepaper containing full Bayesian derivations, register completeness, and sign-offs. |
-| **Executive Presentation** | `.pptx` | [`/public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx`](./public/downloads/Rajasthan_Royals_SupeRR_Selector_Round1_Presentation.pptx) | 24-Slide presentation deck built with RR visual identity, dual-card player registers, and auction scenarios. |
-| **Interactive Scout Platform**| Next.js | [Live Platform](https://rrapexscout.netlify.app/) | 14-Chapter decision-support system featuring DNA inspection modals, compatibility matrix, and simulator. |
-| **Verified Data Pipeline** | JSON / Python | `data/processed/` & `scripts/` | Deterministic, reproducible Bayesian calculation pipelines with audit trails. |
 
 ---
 
